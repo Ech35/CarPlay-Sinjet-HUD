@@ -95,7 +95,7 @@
 | 让自己的 HUD 先显示导航 | [教程入口](docs/README.md) · [简单方式](docs/quick-start.md) |
 | 为 FB0 补齐转向图标 | [HUD 补图](docs/hud-upgrade.md) · [扩展编号](src/hud-icons-r3/icon_ids.h) |
 | 看懂结构化导航与转换 | [架构说明](docs/architecture.md) · [源码索引](src/README.md) |
-| 编译、测试或适配其他型号 | [构建说明](docs/build.md) · [验证范围](docs/validation.md) |
+| 编译、测试或适配其他型号 | [构建说明](docs/build.md) · [验证范围](docs/validation.md) · [构建工具容器](docs/toolkit.md) |
 | 自建下载站、配置 QX | [配置教程](docs/hosting.md) · [示例配置](examples/upgrade.json) |
 | 报告问题或贡献改进 | [常见问题](docs/troubleshooting.md) · [贡献说明](CONTRIBUTING.md) |
 

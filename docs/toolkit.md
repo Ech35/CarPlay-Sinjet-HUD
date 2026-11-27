@@ -10,6 +10,13 @@ docker run --rm ghcr.io/ech35/carplay-sinjet-hud-toolkit:v0.1.0
 
 程序使用合成导航消息检查动作、距离、车道和图标转换。
 
+如果 GHCR 镜像还无法拉取，在仓库根目录可以自行构建并运行同一套测试。
+
+```sh
+docker build -t carplay-sinjet-hud-toolkit:v0.1.0 .
+docker run --rm carplay-sinjet-hud-toolkit:v0.1.0
+```
+
 ## 构建 FB0 补图包
 
 在已克隆的仓库根目录操作。先按[构建说明](build.md#fb0-专用固件)放入匹配的 FB0 原厂底包，再运行以下 PowerShell 命令。
@@ -18,4 +25,4 @@ docker run --rm ghcr.io/ech35/carplay-sinjet-hud-toolkit:v0.1.0
 docker run --rm --mount "type=bind,src=$((Get-Location).Path),dst=/opt/carplay-hud" -w /opt/carplay-hud ghcr.io/ech35/carplay-sinjet-hud-toolkit:v0.1.0 python -B src/hud-bafb0-r1/build.py
 ```
 
-构建结果写入 `src/hud-bafb0-r1/candidate.pak`。U5 和 U6A 盒子镜像使用各自的[构建步骤](build.md)。
+使用本地镜像时，将上述命令中的镜像名换成 `carplay-sinjet-hud-toolkit:v0.1.0`。构建结果写入 `src/hud-bafb0-r1/candidate.pak`。U5 和 U6A 盒子镜像使用各自的[构建步骤](build.md)。
