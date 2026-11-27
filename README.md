@@ -6,7 +6,7 @@
 
 转向 · 距离 · 道路文字 · 车道引导
 
-[开始使用](docs/README.md)　·　[选择版本](docs/versions.md)　·　[Releases](https://github.com/Ech35/CarPlay-Sinjet-HUD/releases)　·　[参考与致谢](docs/references.md)
+[开始使用](docs/README.md)　·　[下载固件](docs/versions.md)　·　[原厂 HUD 存档](https://github.com/Ech35/CarPlay-Sinjet-HUD/releases/tag/sinjet-hud-stock-20261127)　·　[参考与致谢](docs/references.md)
 
 <img src="assets/project-cover.png" width="100%" alt="CarPlay 到信界 HUD 的项目概念封面：无线盒子连接导航与 HUD" />
 
@@ -51,15 +51,15 @@
 
 | 设备 | 必须匹配的标识 | 本次版本 | 状态 |
 | :--- | :--- | :--- | :--- |
-| **U6A 盒子** | `ly8952` · `26052617.8952.1` | **R2c · 当前主版本** | 自动连接修复，离线检查通过；实机自动连接待确认 |
+| **U6A 盒子** | `ly8952` · `26052617.8952.1` | **R2c · 当前主版本** | HUD 自动连接已实机验证 |
 | U6A 回退参考 | 同上 | R2a | 搜索、连接与导航显示有短时实机反馈；有后续自动连接问题反馈 |
 | U5 盒子 | `ly2734` · `26051317.2734.2` | R18 | 前代功能有实机反馈；R18 排序逻辑有离线验证 |
-| **信界 FB0** | `HUDBAFB0` | **201013 R1** | 内部 `20201013`；实体刷写与显示待反馈 |
+| **信界 FB0** | `HUDBAFB0` | **201013 R1** | 内部 `20201013`，已实机刷写 |
 | 信界 SA0 | `HUDBASA0` | 230928 R3 | 三主题补图已有显示反馈；不适用于 FB0 |
 
-> **版本说明**：R2c 是本次选用的 U6A 主版本，主版本不等于所有场景已经实测。R2b 已停用。不同项目号或 HUD 模块号的完整程序不能互刷。
+> 刷写前核对盒子项目号与底包版本，或 HUD 的完整模块号。U6A 选 R2c，R2a 只用于回退。
 
-首发提供源码、教程、图标和构建工具。先看[版本选择](docs/versions.md)，按型号找到版本说明和构建入口。已有候选固件的用户可以核对[文件名与 SHA-256 清单](releases/manifest.json)。
+[按型号下载可直接刷写的成品固件](docs/versions.md)，并对照[文件名与 SHA-256 清单](releases/manifest.json)。用于 HUD 适配的原厂底包见[信界 HUD 原厂固件存档](https://github.com/Ech35/CarPlay-Sinjet-HUD/releases/tag/sinjet-hud-stock-20261127)。
 
 ## 接通后能做什么
 

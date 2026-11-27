@@ -3,16 +3,16 @@
     "tag": "u5-2734-r18",
     "status": "development",
     "target": "U5 / ly2734 / 26051317.2734.2",
-    "file": "2734_26051317.2734.2_HUD车道排序_R18.img",
+    "file": "2734_26051317.2734.2_HUD_R18.img",
     "bytes": 6570029,
     "sha256": "0910018319d344cd7e97cea7ad39cc97d4dbbf5d07f9ed19fe8af4eba8a71dfa",
     "md5": "3e6e992ba34510a3f0e3da7dcd38a553"
   },
   {
     "tag": "u6a-8952-r2c",
-    "status": "pre-release",
+    "status": "field-feedback",
     "target": "U6A / ly8952 / 26052617.8952.1",
-    "file": "8952_26052617.8952.1_HUD自动连接修复_R2c.img",
+    "file": "8952_26052617.8952.1_HUD_R2c.img",
     "bytes": 5519405,
     "sha256": "c324634e3391aa292b39325f144001540e22cafface2770f5af84277edf16def",
     "md5": "44900c17e572232ec9df5da39da12eaa"
@@ -21,16 +21,16 @@
     "tag": "u6a-8952-r2a",
     "status": "tested-baseline",
     "target": "U6A / ly8952 / 26052617.8952.1",
-    "file": "8952_26052617.8952.1_HUD搜索修复_R2a.img",
+    "file": "8952_26052617.8952.1_HUD_R2a.img",
     "bytes": 5519405,
     "sha256": "707d847e62f79aa92625cafea6de822005acaa51b19dfe05d4b8e81623eb3b9f",
     "md5": "85ddb3316b8fcef854f1e18fa9cc9506"
   },
   {
     "tag": "hud-bafb0-201013-r1",
-    "status": "pre-release",
+    "status": "field-feedback",
     "target": "HUDBAFB0",
-    "file": "mcu_HUDBAFB0_201013_完整图标_R1.pak",
+    "file": "mcu_HUDBAFB0_201013.pak",
     "bytes": 3223552,
     "sha256": "27358bfb627fbc8cb295a5776e324996bce295ca58e7179762880c5e3f89143d",
     "md5": "e49a50f931b9c3678abfdc09c141b46b"
