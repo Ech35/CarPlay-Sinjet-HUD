@@ -18,15 +18,6 @@
     "md5": "44900c17e572232ec9df5da39da12eaa"
   },
   {
-    "tag": "u6a-8952-r2a",
-    "status": "tested-baseline",
-    "target": "U6A / ly8952 / 26052617.8952.1",
-    "file": "8952_26052617.8952.1_HUD_R2a.img",
-    "bytes": 5519405,
-    "sha256": "707d847e62f79aa92625cafea6de822005acaa51b19dfe05d4b8e81623eb3b9f",
-    "md5": "85ddb3316b8fcef854f1e18fa9cc9506"
-  },
-  {
     "tag": "hud-bafb0-201013-r1",
     "status": "field-feedback",
     "target": "HUDBAFB0",

@@ -5,7 +5,7 @@
 1. 本地运行 `python tools/audit_repo.py`，确认没有私人路径、站点、真实抓包或密钥。
 2. 核对 LICENSE 与 THIRD_PARTY_NOTICES；自编代码与新图的许可不改变原厂程序或第三方图像的权利。
 3. 把这个目录创建为 Git 仓库，使用自己的 GitHub 账号发布。
-4. 依 releases/manifest.json 为每个成品注明项目号或 HUD 模块号。U6A R2c 为主版本，R2a 为回退包。
+4. 依 releases/manifest.json 为每个成品注明项目号或 HUD 模块号。U6A 当前发布 R2c。
 5. 确认固件的再分发范围后，把可刷写成品与 SHA256SUMS 放入 Release。
 6. 单独发布原厂 HUD 存档，按车型和模块号归档。校验异常的样本单独打包，并标记为仅归档。
 7. 公开后点击 README 中的教程和下载，完整下载成品并核对 SHA-256。
