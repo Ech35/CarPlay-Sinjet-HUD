@@ -2,6 +2,8 @@
 
 Python 3.11+；安装 `pip install -r requirements.txt`。原厂输入全部放在被 Git 忽略的 inputs/，仓库不自动下载原厂固件。
 
+路先行 **U5 / 2734** 和 **U6A / 8952** 的原厂底包选择与哈希见[盒子下载与刷写](luxianxing-flashing.md)。其他品牌先按[适配教程](box-porting.md)确认平台接口。
+
 ## 公共核心
 
 Windows 下准备 Zig 0.13.0，执行：

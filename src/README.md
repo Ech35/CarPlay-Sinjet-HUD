@@ -10,3 +10,5 @@
 - `hud-icons-r3/icon_ids.h`：扩展蓝牙编号 40–85，区别于 HUD 内部逻辑资源编号。
 
 原厂可执行程序、历史固件、私有测试抓包不在此目录。构建时由用户提供对应指纹的输入。
+
+适配新盒子时从[跨品牌教程](../docs/box-porting.md)及[设备记录模板](../examples/box-porting/device-profile.md)开始。路先行 CPBox 镜像可以使用[只读检查脚本](../tools/inspect_cpbox.py)识别项目号。
