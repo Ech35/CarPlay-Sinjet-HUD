@@ -1,0 +1,12 @@
+.git
+inputs/
+dist/
+local-reports/
+release-assets/
+**/__pycache__/
+**/*.img
+**/*.pak
+**/*.dll
+**/*.so
+**/*.bin
+**/*.log

@@ -1,0 +1,35 @@
+name: Publish HUD toolkit
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Tag for the toolkit image, for example v0.1.0
+        required: true
+        type: string
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check project files
+        run: python3 tools/audit_repo.py
+      - name: Build, test and publish
+        env:
+          GHCR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TOOLKIT_VERSION: ${{ inputs.version }}
+        run: |
+          set -euo pipefail
+          [[ "$TOOLKIT_VERSION" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]
+          image="ghcr.io/${GITHUB_REPOSITORY,,}-toolkit:${TOOLKIT_VERSION}"
+          docker build --label "org.opencontainers.image.revision=$GITHUB_SHA" --tag "$image" .
+          docker run --rm "$image"
+          printf '%s' "$GHCR_TOKEN" | docker login ghcr.io --username "$GITHUB_ACTOR" --password-stdin
+          docker push "$image"
+          echo "Toolkit: \`$image\`" >> "$GITHUB_STEP_SUMMARY"

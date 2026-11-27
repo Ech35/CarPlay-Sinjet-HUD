@@ -6,7 +6,7 @@
 
 转向 · 距离 · 道路文字 · 车道引导
 
-[开始使用](docs/README.md)　·　[选择版本](docs/versions.md)　·　[图标补全](docs/hud-upgrade.md)　·　[参考与致谢](docs/references.md)
+[开始使用](docs/README.md)　·　[选择版本](docs/versions.md)　·　[Releases](https://github.com/Ech35/CarPlay-Sinjet-HUD/releases)　·　[参考与致谢](docs/references.md)
 
 <img src="assets/project-cover.png" width="100%" alt="CarPlay 到信界 HUD 的项目概念封面：无线盒子连接导航与 HUD" />
 
@@ -17,6 +17,16 @@
 ---
 
 用兼容的无线 CarPlay 盒子接收结构化导航，再通过蓝牙把转向、动作距离、单行文字与车道引导显示在信界 HUD 上。仓库包含转换核心、U5/U6A 适配、管理网页、诊断和 HUD 图标补全工具。
+
+## 导航怎么到达 HUD
+
+![原理手绘图。iPhone 将导航数据交给盒子，盒子转换后通过蓝牙把左转 100 米发给 HUD](assets/docs/data-flow.png)
+
+1. **iPhone 发送路引**。在 CarPlay 中开始导航后，支持的地图会发送当前动作和距离等结构化信息。
+2. **盒子选出当前提示**。它把路线、动作和车道更新合并，再映射成信界 HUD 能识别的动作编号、文字和车道数据。
+3. **HUD 按指令显示**。盒子通过蓝牙发送转换结果。图中的「左转 100 米」就是一次显示示例。
+
+更多细节见[架构说明](docs/architecture.md)。
 
 ## 选一条适合你的路线
 
@@ -72,11 +82,11 @@
 
 </details>
 
-## 盒子界面一览
+## 从等待连接到导航显示
 
-<p align="center"><img src="assets/u6a-waiting.png" width="740" alt="U6A 等待 CarPlay 连接界面，深色背景和绿色设备选择区域" /></p>
+<p align="center"><img src="assets/docs/waiting.png" width="740" alt="手绘等待连接场景：车机屏幕等待 iPhone 连接" /></p>
 
-<p align="center"><sub>等待连接界面资源；设备名等动态内容由盒子实际状态决定。</sub></p>
+先让 iPhone 接上 CarPlay，再在盒子管理页搜索自己的 HUD。连接后可以用固定转向和车道测试核对屏幕。上图为等待连接示意，具体操作见[简单方式教程](docs/quick-start.md)。
 
 ## 按你关心的内容继续
 

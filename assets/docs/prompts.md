@@ -1,0 +1,21 @@
+# 教程插图生成提示词
+
+## 等待连接
+
+Use the attached waiting screen only as the subject reference. Redraw the idea as a Hand-drawn automotive field guide, graphite pencil and fine dark-green ink with restrained mint watercolor and muted amber accents on warm ivory paper. Light paper grain, imperfect hand-drawn lines, confident editorial composition, objects crisp at phone size. Flat illustration, gently shaded, no gloss, no photographic 3D, no logo, no watermark. Show a sketched dashboard screen in the center, a small phone with a dotted wireless link beside it, and a simple outlined green device selection area on the screen. One clear handwritten Chinese screen title “等待连接”. Do not reproduce brand marks, or small secondary text. Approximately 2:1 landscape. Concept illustration for GitHub documentation, distinct from the actual interface.
+
+## 简单方式设备示意
+
+Hand-drawn automotive field guide, graphite pencil and fine dark-green ink with restrained mint watercolor and muted amber accents on warm ivory paper. Light paper grain, imperfect hand-drawn lines, confident editorial composition, objects crisp at phone size. Flat illustration, gently shaded, no gloss, no photographic 3D, no logo, no watermark. 2:1 landscape hand-drawn scene across three clear objects linked left to right: compact CarPlay adapter with USB cable, phone with a green wireless connection glyph, then a compact automotive HUD with a left-turn arrow and “100 m”. This illustrates the simplest setup with the HUD intact. No textual step numbers, no hands, no text other than “100 m”. Leave ample margins, understated composition. Entire image a single page of an automotive project sketchbook.
+
+## HUD 图标补全
+
+Hand-drawn automotive field guide, graphite pencil and fine dark-green ink with restrained mint watercolor and muted amber accents on warm ivory paper. Light paper grain, imperfect hand-drawn lines, confident editorial composition, objects crisp at phone size. Flat illustration, gently shaded, no gloss, no photographic 3D, no logo, no watermark. 2:1 landscape hand-drawn workbench scene. The composition centers on a small automotive head-up display at the right, a package file symbol and a neat swatch of four recognizable navigation stencil shapes at the left (left turn, merge, roundabout, fork), with a small dotted arrow from the icon swatch into the display. Leave generous breathing room. No brand marks, no text, no actual firmware identifiers, no photos or UI screenshots. This is a conceptual drawing for a HUD icon resource guide.
+
+## 导航数据流
+
+Hand-drawn automotive field guide on warm ivory textured paper, graphite pencil and thin forest-green pen, restrained mint watercolor and muted amber highlights, crisp symbols, airy composition, generous margins, 2:1 landscape, flat editorial illustration. No photography, no brand marks, no watermarks. Explain a navigation-data pipeline with exactly three equally spaced objects in sequence. Left: a smartphone showing a simplified route. Center: a small CarPlay adapter with a simplified pulse diagram above it. Right: a clear HUD combiner with a left arrow and '100 m'. Two separate thin dotted directional arrows go LEFT TO RIGHT across the gaps. The first arrow carries a tiny Wi-Fi arc motif above it, the second a Bluetooth rune and three green pulses. Keep the three devices prominent, substantial padding, and no text except '100 m'. The reader will get text in the adjacent Markdown.
+
+## 车道引导
+
+Hand-drawn automotive field guide on warm ivory textured paper, graphite pencil and thin forest-green pen, restrained mint watercolor and muted amber highlights, crisp symbols, airy composition, generous margins, 2:1 landscape, flat editorial illustration. No photography, no brand marks, no watermarks. Technical explanatory sketch for a tutorial. Show a single sharply readable rectangular HUD combiner at center with two separated zones: upper zone has a bold left turn arrow and text exactly '100 m'; lower zone shows exactly four evenly spaced lane glyphs in a row, left to right: gray straight arrow, mint highlighted left arrow, gray straight arrow, gray right arrow. Small separate sketch of a four-lane road below the glass mirrors the idea, not needed to read the HUD. No other text, avoid extra HUD arrows, no commercial branding. Make it an illustration of an example, not a vehicle screenshot.
