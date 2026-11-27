@@ -1,0 +1,77 @@
+{
+  "cases": [
+    {
+      "case": "early_configuration",
+      "elapsed_ms": 6000,
+      "saved_device_visible": true,
+      "saved_relay_enabled": true,
+      "worker_selected_type": 2,
+      "worker_relay_enabled": 1,
+      "radio_attempts": 1,
+      "nav_epoch": 1
+    },
+    {
+      "case": "late_configuration",
+      "elapsed_ms": 6000,
+      "saved_device_visible": true,
+      "saved_relay_enabled": true,
+      "worker_selected_type": 2,
+      "worker_relay_enabled": 1,
+      "radio_attempts": 1,
+      "nav_epoch": 1
+    },
+    {
+      "case": "configuration_after_carplay_ready",
+      "elapsed_ms": 6000,
+      "saved_device_visible": true,
+      "saved_relay_enabled": true,
+      "worker_selected_type": 2,
+      "worker_relay_enabled": 1,
+      "radio_attempts": 1,
+      "nav_epoch": 1
+    },
+    {
+      "case": "logging_disabled",
+      "elapsed_ms": 6000,
+      "saved_device_visible": true,
+      "saved_relay_enabled": true,
+      "worker_selected_type": 2,
+      "worker_relay_enabled": 1,
+      "radio_attempts": 1,
+      "nav_epoch": 1
+    },
+    {
+      "case": "saved_auto_relay_off",
+      "elapsed_ms": 6000,
+      "saved_device_visible": true,
+      "saved_relay_enabled": false,
+      "worker_selected_type": 2,
+      "worker_relay_enabled": 0,
+      "radio_attempts": 0,
+      "nav_epoch": 1
+    },
+    {
+      "case": "explicit_user_off_before_carplay",
+      "elapsed_ms": 6000,
+      "saved_device_visible": true,
+      "saved_relay_enabled": false,
+      "worker_selected_type": 0,
+      "worker_relay_enabled": 0,
+      "radio_attempts": 0,
+      "nav_epoch": 1
+    },
+    {
+      "case": "first_boot_without_saved_target",
+      "elapsed_ms": 6000,
+      "saved_device_visible": false,
+      "saved_relay_enabled": false,
+      "worker_selected_type": 0,
+      "worker_relay_enabled": 0,
+      "radio_attempts": 0,
+      "nav_epoch": 1
+    }
+  ],
+  "actual_production_arm_worker": true,
+  "physical_radio_used": false,
+  "connection_attempts_simulated_without_http_requests": true
+}

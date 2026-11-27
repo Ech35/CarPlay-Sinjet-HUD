@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="color-scheme" content="dark"><title>无线CarPlay后台设置</title><style>
+  #u5-mobile-stage { padding:18px 10px; }
+  #u5-mobile-settings {
+    --base:#0e1615; --surface:#17231f; --raised:#193228; --line:#31453c;
+    --text:#f2f8f5; --muted:#aec1b8; --green:#a0efc5; --dark-green:#204638;
+    --danger:#ffad9f; --tab:#131e1a; --track:#53645c;
+    color-scheme:dark; box-sizing:border-box; max-width:414px; margin:0 auto; padding:21px 17px 16px;
+    background:var(--base); border:1px solid var(--line); border-radius:22px;
+    color:var(--text); font:15px/1.35 -apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;
+    text-align:left; overflow-wrap:anywhere;
+  }
+  #u5-mobile-settings[data-theme="light"] {
+    --base:#f2f6f3; --surface:#fff; --raised:#e2f1e8; --line:#ccdcd3;
+    --text:#172b23; --muted:#516a5e; --green:#216643; --dark-green:#c8e9d6;
+    --danger:#ad3d32; --tab:#e4ece7; --track:#75877e;
+    color-scheme:light;
+  }
+  #u5-mobile-settings * { box-sizing:border-box; }
+  #u5-mobile-settings [hidden] { display:none!important; }
+  #u5-mobile-settings .u5m-eyebrow { color:var(--muted); font-size:11px; text-align:right; }
+  #u5-mobile-settings h2 { margin:5px 0 16px; color:var(--text); font-size:clamp(23px,6.5vw,29px); font-weight:690; letter-spacing:-.04em; }
+  #u5-mobile-settings .u5m-device {
+    display:flex; align-items:center; gap:10px; padding:13px 11px;
+    background:var(--raised); border:1px solid var(--line); border-radius:15px;
+  }
+  #u5-mobile-settings .u5m-device-icon {
+    flex:none; width:38px; height:38px; border-radius:11px; color:var(--green);
+    background:var(--dark-green); display:grid; place-items:center;
+  }
+  #u5-mobile-settings .u5m-device-icon i { font:600 12px/1 sans-serif; }
+  #u5-mobile-settings .u5m-device-icon svg { width:20px; height:20px; }
+  #u5-mobile-settings .u5m-device-meta { min-width:0; }
+  #u5-mobile-settings .u5m-device-meta strong, #u5-mobile-settings .u5m-device-meta span { display:block; }
+  #u5-mobile-settings .u5m-device-meta strong { font-size:16px; font-weight:650; }
+  #u5-mobile-settings .u5m-device-meta span { margin-top:3px; font-size:12px; color:var(--muted); font-variant-numeric:tabular-nums; }
+  #u5-mobile-settings .u5m-chip {
+    flex:none; margin-left:auto; padding:3px 7px; border-radius:20px;
+    color:var(--green); background:var(--dark-green); font-size:11px;
+  }
+  #u5-mobile-settings .u5m-tabs {
+    display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:4px; margin:14px 0 18px; padding:4px;
+    background:var(--tab); border:1px solid var(--line); border-radius:12px;
+  }
+  #u5-mobile-settings .u5m-tabs button {
+    min-height:40px; color:var(--muted); background:transparent; border:0;
+    border-radius:8px; font-family:inherit; font-size:14px; font-weight:600; line-height:1.25;
+  }
+  #u5-mobile-settings .u5m-tabs button[aria-pressed="true"] { background:var(--raised); color:var(--green); font-weight:650; }
+  #u5-mobile-settings h3 { color:var(--muted); font-size:13px; margin:0 0 8px 4px; font-weight:610; }
+  #u5-mobile-settings .u5m-section-head { display:flex; align-items:center; margin:0 0 8px; }
+  #u5-mobile-settings .u5m-section-head h3 { margin-bottom:0; }
+  #u5-mobile-settings .u5m-list + h3 { margin-top:17px; }
+  #u5-mobile-settings .u5m-list { border:1px solid var(--line); border-radius:14px; background:var(--surface); }
+  #u5-mobile-settings .u5m-row {
+    min-height:60px; padding:10px 13px; display:flex; align-items:center; gap:9px;
+  }
+  #u5-mobile-settings .u5m-list > * + * { border-top:1px solid var(--line); }
+  #u5-mobile-settings .u5m-block {
+    display:grid; gap:10px; min-width:0; padding:12px 13px;
+  }
+  #u5-mobile-settings .u5m-field {
+    display:grid; gap:6px; min-width:0; color:var(--muted); font-size:12px;
+  }
+  #u5-mobile-settings .u5m-glyph {
+    flex:none; display:grid; place-items:center; width:28px; height:28px;
+    border-radius:8px; background:var(--dark-green); color:var(--green);
+  }
+  #u5-mobile-settings .u5m-glyph svg { width:15px; height:15px; }
+  #u5-mobile-settings .u5m-glyph i:empty::before { content:"·"; font-size:18px; }
+  #u5-mobile-settings .u5m-label { flex:1; min-width:0; }
+  #u5-mobile-settings .u5m-label strong { display:block; font-weight:600; }
+  #u5-mobile-settings .u5m-label small { display:block; margin-top:3px; font-size:11px; color:var(--muted); }
+  #u5-mobile-settings select {
+    flex:none; max-width:44%; min-height:44px; margin-left:auto; padding:5px 2px 5px 4px;
+    color:var(--text); background:var(--surface); border:0; font-family:inherit; font-size:16px;
+  }
+  #u5-mobile-settings input[role="switch"] {
+    appearance:none; flex:none; width:40px; height:23px; border-radius:20px;
+    position:relative; border:0; background:var(--track); margin:0 1px 0 auto;
+  }
+  #u5-mobile-settings input[role="switch"]::before {
+    content:""; position:absolute; inset:-10px -2px;
+  }
+  #u5-mobile-settings input[role="switch"]::after {
+    content:""; width:17px; height:17px; position:absolute; top:3px; left:3px;
+    border-radius:50%; background:#fff;
+  }
+  #u5-mobile-settings input[role="switch"]:checked { background:#31815b; }
+  #u5-mobile-settings input[role="switch"]:checked::after { left:20px; }
+  #u5-mobile-settings details summary { list-style:none; }
+  #u5-mobile-settings details summary::-webkit-details-marker { display:none; }
+  #u5-mobile-settings details summary::after { content:"›"; color:var(--muted); font-size:19px; }
+  #u5-mobile-settings details[open] summary::after { content:"⌄"; }
+  #u5-mobile-settings details p, #u5-mobile-settings pre {
+    margin:0 13px 12px 47px; color:var(--muted); font-size:12px; white-space:pre-wrap;
+  }
+  #u5-mobile-settings .u5m-danger strong { color:var(--danger); }
+  #u5-mobile-settings footer { color:var(--muted); margin-top:16px; text-align:center; font-size:11px; }
+  @media (max-width:355px) {
+    #u5-mobile-stage { padding-inline:3px; }
+    #u5-mobile-settings { padding-inline:12px; }
+    #u5-mobile-settings .u5m-row { gap:7px; padding-inline:11px; }
+    #u5-mobile-settings .u5m-label small { font-size:11px; }
+  }
+
+html { background:#0e1615; color-scheme:dark; }
+body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif; }
+button, a, select, input { -webkit-tap-highlight-color:transparent; }
+button, a { touch-action:manipulation; }
+button { cursor:pointer; }
+button:disabled, input:disabled, select:disabled { opacity:.5; cursor:wait; }
+#u5-mobile-settings .u5m-device-meta { flex:1; }
+#u5-mobile-settings .u5m-device-meta strong { overflow-wrap:anywhere; }
+#u5-mobile-settings .u5m-chip[data-state="offline"] { color:#ffad9f; background:#472c2a; }
+#u5-mobile-settings .u5m-actions { display:flex; flex-wrap:wrap; gap:9px; margin:12px 13px; }
+#u5-mobile-settings .u5m-button { min-height:44px; padding:10px 14px; border:1px solid var(--line); border-radius:10px; background:var(--raised); color:var(--text); font:inherit; font-size:14px; font-weight:600; line-height:1.5; text-decoration:none; display:inline-flex; align-items:center; justify-content:center; }
+#u5-mobile-settings button.u5m-danger { color:var(--danger); }
+#u5-mobile-settings .u5m-hint { margin:9px 13px 13px; color:var(--muted); font-size:12px; line-height:1.6; }
+#u5-mobile-settings .u5m-message { min-height:22px; margin:10px 3px 13px; color:var(--green); font-size:12px; line-height:1.6; }
+#u5-mobile-settings .u5m-message[data-error="true"] { color:var(--danger); }
+#u5-mobile-settings pre { margin:12px; font:12px/1.6 ui-monospace,Consolas,monospace; }
+#u5-mobile-settings .u5m-file { margin:10px 13px; width:calc(100% - 26px); font:inherit; font-size:14px; line-height:2; }
+#u5-mobile-settings .u5m-file::file-selector-button { min-height:40px; margin-right:8px; padding:7px 10px; color:var(--text); background:var(--raised); border:1px solid var(--line); border-radius:8px; font:inherit; }
+#u5-mobile-settings .u5m-block > :is(.u5m-actions,.u5m-hint,.u5m-file,#fw_prog_bd) { margin:0; }
+#u5-mobile-settings .u5m-block > .u5m-file { width:100%; min-width:0; }
+#u5-mobile-settings .u5m-block > .u5m-hint:empty,
+#page-message:empty, #hud-message:empty { display:none; }
+#u5-mobile-settings select.u5m-control {
+  width:100%; min-width:0; max-width:100%; margin:0; padding:8px 10px;
+  border:1px solid var(--line); border-radius:8px; background:var(--raised);
+}
+#fw_prog_bd { margin:10px 13px; height:7px; border-radius:9px; overflow:hidden; background:var(--line); }
+#fw_prog { width:0; height:100%; background:var(--green); transition:width .2s; }
+#u5-mobile-settings .u5m-tab-description { margin:0 4px 13px; font-size:12px; color:var(--muted); line-height:1.6; }
+</style><script defer src="/js/cpbox.js"></script><script defer src="/js/u5hud.js?v=10"></script><script defer src="/js/u5hud-ble.js?v=17"></script></head>
+<body><div id="u5-mobile-stage"><main id="u5-mobile-settings">
+<header class="u5m-header"><div class="u5m-eyebrow">本地管理</div><h2>无线CarPlay后台设置</h2>
+<div class="u5m-device"><div class="u5m-device-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 8a16 16 0 0 1 20 0M5 12a11 11 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0"/><circle cx="12" cy="20" r=".5"/></svg></div><div class="u5m-device-meta"><strong id="device-name">正在读取设备</strong><span id="firmware-version">正在读取版本</span></div><span class="u5m-chip" id="connection-state" role="status">连接中…</span></div></header>
+<nav class="u5m-tabs" aria-label="管理栏目"><button type="button" data-u5m-tab="settings" aria-pressed="true" aria-controls="settings-pane">常用设置</button><button type="button" data-u5m-tab="hud" aria-pressed="false" aria-controls="hud-pane">HUD 桥接</button><button type="button" data-u5m-tab="maintenance" aria-pressed="false" aria-controls="maintenance-pane">维护</button></nav>
+<div id="page-message" class="u5m-message" role="status" aria-live="polite"></div>
+<section id="settings-pane" data-u5m-pane="settings"><h3>连接与音频</h3><div class="u5m-list"><label class="u5m-row"><span class="u5m-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 8a16 16 0 0 1 20 0M5 12a11 11 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0"/><circle cx="12" cy="20" r=".5"/></svg></span><span class="u5m-label"><strong>Wi-Fi 信道</strong><small>盒子热点使用的信道</small></span><select id="setting-wifi" aria-label="Wi-Fi 信道" data-setting="wifi" disabled><option value="6">6 · 2.4 GHz</option><option value="36">36 · 5 GHz</option><option value="149">149 · 5 GHz</option><option value="161">161 · 5 GHz</option></select></label><label class="u5m-row"><span class="u5m-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10v4M8 6v12M12 3v18M16 6v12M20 10v4"/></svg></span><span class="u5m-label"><strong>音频流模式</strong><small><span id="audio-description">使用原厂默认音频策略</span></small></span><select id="setting-aud" aria-label="音频流模式" aria-describedby="audio-description" data-setting="aud" disabled><option value="0" data-description="使用原厂默认音频策略">默认</option><option value="1" data-description="对 CarPlay 通话状态切换做兼容处理">模式 1</option><option value="2" data-description="使用原厂音频模式 2，具体差异待核实">模式 2</option><option value="3" data-description="使用原厂音频模式 3，具体差异待核实">模式 3</option></select></label><label class="u5m-row"><span class="u5m-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 8v5l3 2M9 2h6"/></svg></span><span class="u5m-label"><strong>启动延时</strong><small><span id="delay-description">按原厂默认时机启动</span></small></span><select id="setting-delay" aria-label="启动延时" aria-describedby="delay-description" data-setting="delay" disabled><option value="0" data-description="按原厂默认时机启动">默认</option><option value="1" data-description="原厂启动模式 1，额外等待时间待核实">模式 1</option><option value="2" data-description="CarPlay 相关服务启动前额外等待 20 秒">模式 2</option></select></label></div><h3>车机与外观</h3><div class="u5m-list"><label class="u5m-row"><span class="u5m-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2"/></svg></span><span class="u5m-label"><strong>车机定位透传</strong><small>允许转发车机提供的定位数据，接收情况可通过诊断日志查看</small></span><input type="checkbox" id="setting-gps" role="switch" aria-label="车机定位透传" data-setting="gps" disabled></label><label class="u5m-row"><span class="u5m-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 16c0-2-3-3-3-7a7 7 0 0 1 14 0c0 4-3 5-3 7M8 18h8M9 22h6"/></svg></span><span class="u5m-label"><strong>盒子指示灯</strong><small>控制机身 LED</small></span><input type="checkbox" id="setting-led" role="switch" aria-label="盒子指示灯" data-setting="led" disabled></label></div></section>
+<section id="hud-pane" data-u5m-pane="hud" hidden><div class="u5m-section-head"><h3>信界 HUD</h3><span class="u5m-chip">实时导航 R18</span></div><p class="u5m-tab-description">将 CarPlay 结构化导航转发到信界 HUD。首次请在停车时核对转向和距离，诊断结果可在维护页导出。</p><h3>导航转发</h3><div class="u5m-list"><label class="u5m-row"><span class="u5m-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5" cy="5" r="2"/><circle cx="19" cy="19" r="2"/><path d="M5 7v7a4 4 0 0 0 4 4h1M19 17v-7a4 4 0 0 0-4-4h-1"/></svg></span><span class="u5m-label"><strong>自动转发导航</strong><small>CarPlay 就绪后连接已保存的 HUD，显示实际转向、距离和道路信息。</small></span><input type="checkbox" id="hud-relay" role="switch" aria-label="自动转发导航" disabled></label><label class="u5m-row"><span class="u5m-glyph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20v-8a4 4 0 0 1 4-4h4m-4-4 4 4-4 4"/></svg></span><span class="u5m-label"><strong>完整转向图标</strong><small>HUD 刷入完整图标版后启用。可在自动转发期间切换。</small></span><input type="checkbox" id="hud-icons" role="switch" aria-label="完整转向图标" disabled></label><div class="u5m-block">
+<p class="u5m-hint" id="hud-relay-result">正在读取转发状态</p><p class="u5m-hint">首次先连接一次自己的 HUD，再开启转发；开关与设备选择会保存。关闭或手动断开会停止转发并清屏。</p>
+</div></div>
+<h3>HUD 连接</h3><div class="u5m-list"><div class="u5m-row"><span class="u5m-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m7 6 10 12-5 4V2l5 4L7 18"/></svg></span><span class="u5m-label"><strong id="hud-selected">选择设备后手动连接</strong><small>CarPlay 配对完成后连接 HUD</small></span><span class="u5m-chip" id="hud-state">未连接</span></div>
+<div class="u5m-block">
+<div class="u5m-actions"><button type="button" class="u5m-button" id="hud-scan" disabled>搜索 HUD</button><button type="button" class="u5m-button u5m-danger" id="hud-disconnect" disabled>断开 / 取消</button></div>
+<label class="u5m-field" for="hud-device"><span>HUD 设备</span>
+<select class="u5m-control" id="hud-device" aria-label="HUD 设备" disabled><option value="">搜索后选择 HUD</option></select>
+</label>
+<div class="u5m-actions"><button type="button" class="u5m-button" id="hud-connect" disabled>连接 HUD</button></div><p class="u5m-hint" id="hud-result">打开此页后读取连接状态</p>
+</div></div>
+<h3>显示测试</h3><div class="u5m-list"><div class="u5m-row"><span class="u5m-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5" cy="5" r="2"/><circle cx="19" cy="19" r="2"/><path d="M5 7v7a4 4 0 0 0 4 4h1M19 17v-7a4 4 0 0 0-4-4h-1"/></svg></span><span class="u5m-label"><strong>HUD 显示测试</strong><small>停车时关闭自动转发并连接 HUD，测试约 3 秒后清屏</small></span></div>
+<div class="u5m-block">
+<label class="u5m-field" for="hud-test-kind"><span>测试项目</span>
+<select class="u5m-control" id="hud-test-kind" aria-describedby="hud-test-preview" disabled>
+<option value="turn">左转 100 米</option><option value="lanes">六车道显示</option><option value="icons">新增转向图标</option>
+</select>
+</label>
+<label class="u5m-field" id="hud-test-icon-field" for="hud-test-icon" hidden><span>转向图标</span>
+<select class="u5m-control" id="hud-test-icon" disabled>
+<optgroup label="转向与路线">
+<option value="40">40 · 沿路行驶</option>
+<option value="41">41 · 高速左侧出口</option>
+<option value="42">42 · 高速右侧出口</option>
+<option value="43">43 · 从左侧匝道汇入</option>
+<option value="44">44 · 从右侧匝道汇入</option>
+<option value="45">45 · 保持靠左</option>
+<option value="46">46 · 保持靠右</option>
+<option value="47">47 · 道路尽头左转</option>
+<option value="48">48 · 道路尽头右转</option>
+<option value="49">49 · 起步／前往路线</option>
+<option value="50">50 · 目的地在左侧</option>
+<option value="51">51 · 目的地在右侧</option>
+<option value="52">52 · 切换高速</option>
+<option value="53">53 · 向左切换高速</option>
+<option value="54">54 · 向右切换高速</option>
+<option value="55">55 · 右掉头</option>
+<option value="56">56 · 驶入轮渡</option>
+<option value="57">57 · 驶离轮渡</option>
+<option value="58">58 · 更换轮渡</option>
+</optgroup>
+<optgroup label="环岛方向">
+<option value="59">59 · 驶出环岛向左（靠右通行）</option>
+<option value="60">60 · 驶出环岛向右（靠右通行）</option>
+<option value="61">61 · 驶入环岛（靠左通行）</option>
+<option value="62">62 · 驶出环岛向左（靠左通行）</option>
+<option value="63">63 · 驶出环岛向前（靠左通行）</option>
+<option value="64">64 · 驶出环岛向右（靠左通行）</option>
+<option value="65">65 · 环岛掉头（靠右通行）</option>
+<option value="66">66 · 环岛掉头（靠左通行）</option>
+</optgroup>
+<optgroup label="环岛出口编号">
+<option value="67">67 · 环岛第 1 出口</option>
+<option value="68">68 · 环岛第 2 出口</option>
+<option value="69">69 · 环岛第 3 出口</option>
+<option value="70">70 · 环岛第 4 出口</option>
+<option value="71">71 · 环岛第 5 出口</option>
+<option value="72">72 · 环岛第 6 出口</option>
+<option value="73">73 · 环岛第 7 出口</option>
+<option value="74">74 · 环岛第 8 出口</option>
+<option value="75">75 · 环岛第 9 出口</option>
+<option value="76">76 · 环岛第 10 出口</option>
+<option value="77">77 · 环岛第 11 出口</option>
+<option value="78">78 · 环岛第 12 出口</option>
+<option value="79">79 · 环岛第 13 出口</option>
+<option value="80">80 · 环岛第 14 出口</option>
+<option value="81">81 · 环岛第 15 出口</option>
+<option value="82">82 · 环岛第 16 出口</option>
+<option value="83">83 · 环岛第 17 出口</option>
+<option value="84">84 · 环岛第 18 出口</option>
+<option value="85">85 · 环岛第 19 出口</option>
+</optgroup>
+</select>
+</label>
+<p class="u5m-hint" id="hud-test-preview">显示左转和 100 米距离。</p>
+<div class="u5m-actions"><button type="button" class="u5m-button" id="hud-test" disabled>发送显示测试</button></div>
+<p class="u5m-hint" id="hud-test-result"></p>
+</div></div>
+<p class="u5m-message" id="hud-message" role="status" aria-live="polite"></p></section>
+<section id="maintenance-pane" data-u5m-pane="maintenance" hidden><h3>诊断与日志</h3><div class="u5m-list"><label class="u5m-row"><span class="u5m-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m14 6 4-4 4 4-4 4-4-4ZM14 10 4 20l-2-2L12 8"/></svg></span><span class="u5m-label"><strong>诊断日志</strong><small>记录时间线、识别拒绝详情和导航解析结果</small></span><input type="checkbox" id="logging-enabled" role="switch" aria-label="诊断日志" disabled></label>
+<div class="u5m-block">
+<p class="u5m-hint" id="logging-description">正在读取日志设置</p>
+<div class="u5m-actions"><a class="u5m-button" href="/cgi-bin/u5hud.cgi?action=download" download="u5hud-log.txt">导出诊断日志</a><button class="u5m-button u5m-danger" id="clear-logs" type="button" disabled>清空日志</button></div>
+</div>
+<details id="log-details"><summary class="u5m-row"><span class="u5m-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg></span><span class="u5m-label"><strong>查看诊断快照</strong><small>展开时读取当前记录</small></span></summary><pre id="log-preview">正在读取</pre><div class="u5m-actions"><button class="u5m-button" id="refresh-logs" type="button">刷新快照</button></div></details></div>
+<h3>固件升级</h3><div class="u5m-list"><div class="u5m-row"><span class="u5m-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="13" rx="2"/><path d="M12 16v5M8 21h8"/></svg></span><span class="u5m-label"><strong>当前固件</strong><small id="maintenance-version">正在读取版本</small></span><span class="u5m-chip">HUD 导航 R18</span></div>
+<div class="u5m-block">
+<div class="u5m-actions"><button class="u5m-button" id="check-update" type="button" disabled>检查在线更新</button><button class="u5m-button" id="txt12" type="button" hidden>安装在线更新</button></div><p class="u5m-hint" id="txt11" role="status">可检查原厂在线更新，或选择本地固件文件。</p><p class="u5m-hint" id="update-description"></p>
+<div id="fw_prog_bd" hidden><div id="fw_prog"></div></div>
+</div>
+<label class="u5m-row" for="firmware-file"><span class="u5m-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg></span><span class="u5m-label"><strong>本地固件文件</strong><small>选择需要刷入的 .img 文件</small></span></label>
+<div class="u5m-block">
+<input class="u5m-file" id="firmware-file" type="file" accept=".img" disabled><div class="u5m-actions"><button class="u5m-button" id="install-local" type="button" disabled>上传并升级</button></div><p class="u5m-hint">安装原厂更新会替换本次改造。升级期间保持盒子供电。</p>
+</div></div>
+<h3>重置设备</h3><div class="u5m-list"><div class="u5m-row"><span class="u5m-glyph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10a9 9 0 1 1 2 8M3 4v6h6"/></svg></span><span class="u5m-label"><strong>恢复出厂设置</strong><small>清理用户数据、配对记录并重启盒子</small></span></div><div class="u5m-block"><div class="u5m-actions"><button class="u5m-button u5m-danger" id="factory-reset" type="button" disabled>恢复出厂设置</button></div></div></div></section>
+<footer>本地管理 · HUD 导航 R18</footer></main></div></body></html>

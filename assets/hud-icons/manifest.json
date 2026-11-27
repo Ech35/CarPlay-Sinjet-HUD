@@ -1,0 +1,2090 @@
+[
+  {
+    "ble_id": 40,
+    "review_key": "F01",
+    "actions": [
+      5
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_40.png",
+    "copied_stock": null,
+    "input_bytes": 3999,
+    "packed_bytes": 3831,
+    "sha256": "be0c062bfacb4736aaed6b906b9dd4b4eeeba35e6af9f60532c58c96fad69c6b",
+    "logical_resource_id": 1024
+  },
+  {
+    "ble_id": 40,
+    "review_key": "F01",
+    "actions": [
+      5
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_40.png",
+    "copied_stock": null,
+    "input_bytes": 11863,
+    "packed_bytes": 9010,
+    "sha256": "6ac611a1b3e166fe94121540d58f04e42faf45436f59a79e0048dc665b6964e0",
+    "logical_resource_id": 1070
+  },
+  {
+    "ble_id": 40,
+    "review_key": "F01",
+    "actions": [
+      5
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_40.png",
+    "copied_stock": null,
+    "input_bytes": 4048,
+    "packed_bytes": 4014,
+    "sha256": "e5cf0b0e4ce36a96e7835062608b7de02aa7435c635254586812cd9e75b54930",
+    "logical_resource_id": 1116
+  },
+  {
+    "ble_id": 41,
+    "review_key": "A01",
+    "actions": [
+      8,
+      22
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_41.png",
+    "copied_stock": null,
+    "input_bytes": 2341,
+    "packed_bytes": 2252,
+    "sha256": "533689e57ed0f9a51458545cefa912b3be66efd2091098e5e2706060ee51dd9f",
+    "logical_resource_id": 1025
+  },
+  {
+    "ble_id": 41,
+    "review_key": "A01",
+    "actions": [
+      8,
+      22
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_41.png",
+    "copied_stock": null,
+    "input_bytes": 11517,
+    "packed_bytes": 8928,
+    "sha256": "b1fb1e6d0bee67c40de6e5d2b6d126e78365d22b713a37e8622c6cc2ea5b6577",
+    "logical_resource_id": 1071
+  },
+  {
+    "ble_id": 41,
+    "review_key": "A01",
+    "actions": [
+      8,
+      22
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_41.png",
+    "copied_stock": null,
+    "input_bytes": 2808,
+    "packed_bytes": 2808,
+    "sha256": "bdc334a425ba5f970f5bfa3151a7c16d49ba330d246bdd7b9f5efd3059fe66b4",
+    "logical_resource_id": 1117
+  },
+  {
+    "ble_id": 42,
+    "review_key": "A02",
+    "actions": [
+      8,
+      23
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_42.png",
+    "copied_stock": null,
+    "input_bytes": 2546,
+    "packed_bytes": 2522,
+    "sha256": "f1b23c82bb8d69b4bf47f445eca30ecb2f58698b388566963f5866238e479a01",
+    "logical_resource_id": 1026
+  },
+  {
+    "ble_id": 42,
+    "review_key": "A02",
+    "actions": [
+      8,
+      23
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_42.png",
+    "copied_stock": null,
+    "input_bytes": 11684,
+    "packed_bytes": 9017,
+    "sha256": "427830d047c8259ffa8368135c8546e71f7e9f5b71040df7fcaa1b355f7b6489",
+    "logical_resource_id": 1072
+  },
+  {
+    "ble_id": 42,
+    "review_key": "A02",
+    "actions": [
+      8,
+      23
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_42.png",
+    "copied_stock": null,
+    "input_bytes": 2741,
+    "packed_bytes": 2741,
+    "sha256": "34234d50cdb848e1367d83e2e58d6711c64e5fc933005a191683a892043ee925",
+    "logical_resource_id": 1118
+  },
+  {
+    "ble_id": 43,
+    "review_key": "A03",
+    "actions": [
+      9
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_43.png",
+    "copied_stock": null,
+    "input_bytes": 2488,
+    "packed_bytes": 2417,
+    "sha256": "3efd83dcc6442d0b6528c0d729f1661652d26cc7518e34a6118712495a38f51f",
+    "logical_resource_id": 1027
+  },
+  {
+    "ble_id": 43,
+    "review_key": "A03",
+    "actions": [
+      9
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_43.png",
+    "copied_stock": null,
+    "input_bytes": 11767,
+    "packed_bytes": 9384,
+    "sha256": "3549720ac1251fa96a72e1d963c1ec430f0c29b1a425c52aa4ace1318b9cff46",
+    "logical_resource_id": 1073
+  },
+  {
+    "ble_id": 43,
+    "review_key": "A03",
+    "actions": [
+      9
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_43.png",
+    "copied_stock": null,
+    "input_bytes": 3102,
+    "packed_bytes": 3102,
+    "sha256": "9caf6b0be6e224d28da4afe8667a7d420f2f614d77710ff63b9078b85353ecb2",
+    "logical_resource_id": 1119
+  },
+  {
+    "ble_id": 44,
+    "review_key": "A04",
+    "actions": [
+      9
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_44.png",
+    "copied_stock": null,
+    "input_bytes": 2480,
+    "packed_bytes": 2444,
+    "sha256": "e94f7e9d8440814d9a15e143402a2b3199b0706b74b86aeb625846506896382d",
+    "logical_resource_id": 1028
+  },
+  {
+    "ble_id": 44,
+    "review_key": "A04",
+    "actions": [
+      9
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_44.png",
+    "copied_stock": null,
+    "input_bytes": 12008,
+    "packed_bytes": 9476,
+    "sha256": "1e15ead867f54c74378c50708287add44519bd0a607206bf61ee2fd58441a197",
+    "logical_resource_id": 1074
+  },
+  {
+    "ble_id": 44,
+    "review_key": "A04",
+    "actions": [
+      9
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_44.png",
+    "copied_stock": null,
+    "input_bytes": 3099,
+    "packed_bytes": 3099,
+    "sha256": "b1d18da00b688fb2ec5a10c393b344bff46906ec3114e694494adc695adbc2f3",
+    "logical_resource_id": 1120
+  },
+  {
+    "ble_id": 45,
+    "review_key": "A05",
+    "actions": [
+      13
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_45.png",
+    "copied_stock": 36,
+    "input_bytes": 1213,
+    "packed_bytes": 1213,
+    "sha256": "d6d5d456c1af553e3a148533c810c603d161ae17ab5f63bccf7aa92f458cd1df",
+    "logical_resource_id": 1029
+  },
+  {
+    "ble_id": 45,
+    "review_key": "A05",
+    "actions": [
+      13
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_45.png",
+    "copied_stock": null,
+    "input_bytes": 11653,
+    "packed_bytes": 9219,
+    "sha256": "eb8bf861bf0e43d6a56953201cda4b89c0ceb44ce44101da06543f8ef3e7dc5a",
+    "logical_resource_id": 1075
+  },
+  {
+    "ble_id": 45,
+    "review_key": "A05",
+    "actions": [
+      13
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_45.png",
+    "copied_stock": null,
+    "input_bytes": 3173,
+    "packed_bytes": 3173,
+    "sha256": "286f4654ae2992d396c19afc9364f73027b3091d42166f061deadd4bbe8520d6",
+    "logical_resource_id": 1121
+  },
+  {
+    "ble_id": 46,
+    "review_key": "A06",
+    "actions": [
+      14
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_46.png",
+    "copied_stock": 35,
+    "input_bytes": 1194,
+    "packed_bytes": 1194,
+    "sha256": "23a32f57ab61579d2fa4684722dea91c3969516e580198a6654dc64cd2249d2b",
+    "logical_resource_id": 1030
+  },
+  {
+    "ble_id": 46,
+    "review_key": "A06",
+    "actions": [
+      14
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_46.png",
+    "copied_stock": null,
+    "input_bytes": 11486,
+    "packed_bytes": 9185,
+    "sha256": "3ee906f6c534734bb02ecff7cbda04cef10a85bbd5f35084aa5234bbe44149f1",
+    "logical_resource_id": 1076
+  },
+  {
+    "ble_id": 46,
+    "review_key": "A06",
+    "actions": [
+      14
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_46.png",
+    "copied_stock": null,
+    "input_bytes": 3201,
+    "packed_bytes": 3201,
+    "sha256": "d1c8c7820cc9c0c72c39df64e3afdb0d52c07f2e5ee206df9f62742716d9dc0b",
+    "logical_resource_id": 1122
+  },
+  {
+    "ble_id": 47,
+    "review_key": "A07",
+    "actions": [
+      20
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_47.png",
+    "copied_stock": null,
+    "input_bytes": 2187,
+    "packed_bytes": 2187,
+    "sha256": "90768bcec3cba4f90778e69919154f031c1b5c0f6094dacbdbacb9b66a68ced0",
+    "logical_resource_id": 1031
+  },
+  {
+    "ble_id": 47,
+    "review_key": "A07",
+    "actions": [
+      20
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_47.png",
+    "copied_stock": null,
+    "input_bytes": 11218,
+    "packed_bytes": 8854,
+    "sha256": "8548ab8e6f9f8fc43f34211b3d9600ac201cdc29665a2e59956e4b6eb7fe92f5",
+    "logical_resource_id": 1077
+  },
+  {
+    "ble_id": 47,
+    "review_key": "A07",
+    "actions": [
+      20
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_47.png",
+    "copied_stock": null,
+    "input_bytes": 3116,
+    "packed_bytes": 2856,
+    "sha256": "5263dea888b184fad8be1b396d5b7268b8dc1162b8ebae124e22ef6b1c88acb4",
+    "logical_resource_id": 1123
+  },
+  {
+    "ble_id": 48,
+    "review_key": "A08",
+    "actions": [
+      21
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_48.png",
+    "copied_stock": null,
+    "input_bytes": 2258,
+    "packed_bytes": 2220,
+    "sha256": "bf9867c5c4118adb28ef031806012e3c50ce112a082c20f09ae86564607183b3",
+    "logical_resource_id": 1032
+  },
+  {
+    "ble_id": 48,
+    "review_key": "A08",
+    "actions": [
+      21
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_48.png",
+    "copied_stock": null,
+    "input_bytes": 11381,
+    "packed_bytes": 8882,
+    "sha256": "d9f30f66cee244d024236b7b0b00d736034d47f10f9834be12f28fe0224d4092",
+    "logical_resource_id": 1078
+  },
+  {
+    "ble_id": 48,
+    "review_key": "A08",
+    "actions": [
+      21
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_48.png",
+    "copied_stock": null,
+    "input_bytes": 3005,
+    "packed_bytes": 2736,
+    "sha256": "1ed6b1fde8368ffd06e6abe77a0a29c5a9082967a59a8f72953687ca16a5510b",
+    "logical_resource_id": 1124
+  },
+  {
+    "ble_id": 49,
+    "review_key": "A09",
+    "actions": [
+      11
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_49.png",
+    "copied_stock": null,
+    "input_bytes": 2785,
+    "packed_bytes": 2785,
+    "sha256": "6b71dad51785493ffceca4f415b8ba690bef3f8cf0ca754442d273f83ee74513",
+    "logical_resource_id": 1033
+  },
+  {
+    "ble_id": 49,
+    "review_key": "A09",
+    "actions": [
+      11
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_49.png",
+    "copied_stock": null,
+    "input_bytes": 11772,
+    "packed_bytes": 9871,
+    "sha256": "1cf5950c03709a3b0b72b4c0ec5a53bd9fe3ebbcb9c088e03dcc28d8d6c0ee56",
+    "logical_resource_id": 1079
+  },
+  {
+    "ble_id": 49,
+    "review_key": "A09",
+    "actions": [
+      11
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_49.png",
+    "copied_stock": null,
+    "input_bytes": 3800,
+    "packed_bytes": 3800,
+    "sha256": "a8a5693b197e3ace7c0dd93076145be14ba76b683f849fda0e5219f7861a78d8",
+    "logical_resource_id": 1125
+  },
+  {
+    "ble_id": 50,
+    "review_key": "B01",
+    "actions": [
+      24
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_50.png",
+    "copied_stock": null,
+    "input_bytes": 1925,
+    "packed_bytes": 1925,
+    "sha256": "fc5307f396daf5906793f97b05793413bd59b62dce830b7ccf091cb49e13417b",
+    "logical_resource_id": 1034
+  },
+  {
+    "ble_id": 50,
+    "review_key": "B01",
+    "actions": [
+      24
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_50.png",
+    "copied_stock": null,
+    "input_bytes": 7908,
+    "packed_bytes": 7091,
+    "sha256": "9ce68a68d15e33ec1b05f0d3e09ea52b90551c2007523577d09465517172aec3",
+    "logical_resource_id": 1080
+  },
+  {
+    "ble_id": 50,
+    "review_key": "B01",
+    "actions": [
+      24
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_50.png",
+    "copied_stock": null,
+    "input_bytes": 2085,
+    "packed_bytes": 2085,
+    "sha256": "4444a4c3519b898bcf435b203e75d8e149f59e11429b66660685773cf95e4957",
+    "logical_resource_id": 1126
+  },
+  {
+    "ble_id": 51,
+    "review_key": "B02",
+    "actions": [
+      25
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_51.png",
+    "copied_stock": null,
+    "input_bytes": 2029,
+    "packed_bytes": 2029,
+    "sha256": "9636e629de9fc4795e59ca1172e36a4439aa407505eaab331c59a024ebe8711f",
+    "logical_resource_id": 1035
+  },
+  {
+    "ble_id": 51,
+    "review_key": "B02",
+    "actions": [
+      25
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_51.png",
+    "copied_stock": null,
+    "input_bytes": 7656,
+    "packed_bytes": 6957,
+    "sha256": "fd29b85d3e1729028816dc5aa46022f3b3602a9522b97a95d266756b07cbac79",
+    "logical_resource_id": 1081
+  },
+  {
+    "ble_id": 51,
+    "review_key": "B02",
+    "actions": [
+      25
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_51.png",
+    "copied_stock": null,
+    "input_bytes": 2163,
+    "packed_bytes": 2163,
+    "sha256": "e1573ac4e3a7d6194a8d739ee95eb332e80ac9508ea871968e766722ed4790b4",
+    "logical_resource_id": 1127
+  },
+  {
+    "ble_id": 52,
+    "review_key": "B03",
+    "actions": [
+      51
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_52.png",
+    "copied_stock": 31,
+    "input_bytes": 791,
+    "packed_bytes": 791,
+    "sha256": "77d6a51291627aad4ab0d8b0c5fc6c25d18ea96f9d0d9ae6fe3ab73802e78850",
+    "logical_resource_id": 1036
+  },
+  {
+    "ble_id": 52,
+    "review_key": "B03",
+    "actions": [
+      51
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_52.png",
+    "copied_stock": null,
+    "input_bytes": 11813,
+    "packed_bytes": 8265,
+    "sha256": "9168f17d51c742610d42fad0a9e3ffcfba1bca074886bce2593c8d5523e9d2e8",
+    "logical_resource_id": 1082
+  },
+  {
+    "ble_id": 52,
+    "review_key": "B03",
+    "actions": [
+      51
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_52.png",
+    "copied_stock": null,
+    "input_bytes": 6014,
+    "packed_bytes": 4865,
+    "sha256": "7ef250735877099986e9694fbd0a208a35deb8a57824b7d8a6b875adefef5c3d",
+    "logical_resource_id": 1128
+  },
+  {
+    "ble_id": 53,
+    "review_key": "B04",
+    "actions": [
+      51,
+      52
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_53.png",
+    "copied_stock": 37,
+    "input_bytes": 938,
+    "packed_bytes": 938,
+    "sha256": "7578475cc6818c44e6ce29a745fd4848ebc05d12f5ca1b3df41dc5102a25fe10",
+    "logical_resource_id": 1037
+  },
+  {
+    "ble_id": 53,
+    "review_key": "B04",
+    "actions": [
+      51,
+      52
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_53.png",
+    "copied_stock": null,
+    "input_bytes": 10380,
+    "packed_bytes": 8384,
+    "sha256": "7e3baf60423594f624e22e676834da13b92fcfaa412dd56100203e2f2d7b9562",
+    "logical_resource_id": 1083
+  },
+  {
+    "ble_id": 53,
+    "review_key": "B04",
+    "actions": [
+      51,
+      52
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_53.png",
+    "copied_stock": null,
+    "input_bytes": 3986,
+    "packed_bytes": 3986,
+    "sha256": "b29ed6730d3c94eed3eb04f0b69a756f3c5464ed482ce0bdd3ee0b77941e33c7",
+    "logical_resource_id": 1129
+  },
+  {
+    "ble_id": 54,
+    "review_key": "B05",
+    "actions": [
+      51,
+      53
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_54.png",
+    "copied_stock": 38,
+    "input_bytes": 919,
+    "packed_bytes": 919,
+    "sha256": "0f168b07ed99c9fa29b4ee4c54221a85386cc90938bef11c7b9aef8a63b622ac",
+    "logical_resource_id": 1038
+  },
+  {
+    "ble_id": 54,
+    "review_key": "B05",
+    "actions": [
+      51,
+      53
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_54.png",
+    "copied_stock": null,
+    "input_bytes": 10185,
+    "packed_bytes": 8159,
+    "sha256": "3658e33a507f9ae69c79dc1537b5038cca956410a2334b34ddddc2cc8e9c9a67",
+    "logical_resource_id": 1084
+  },
+  {
+    "ble_id": 54,
+    "review_key": "B05",
+    "actions": [
+      51,
+      53
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_54.png",
+    "copied_stock": null,
+    "input_bytes": 4053,
+    "packed_bytes": 4053,
+    "sha256": "e61539713715044a1a10e619346a111c0ab77ca39aa044577259002d2433997d",
+    "logical_resource_id": 1130
+  },
+  {
+    "ble_id": 55,
+    "review_key": "B06",
+    "actions": [
+      4,
+      18,
+      26
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_55.png",
+    "copied_stock": 33,
+    "input_bytes": 1588,
+    "packed_bytes": 1588,
+    "sha256": "e161f0007c847c287c108c75a4803108827e98d1534bdf0d9e55937db7639c93",
+    "logical_resource_id": 1039
+  },
+  {
+    "ble_id": 55,
+    "review_key": "B06",
+    "actions": [
+      4,
+      18,
+      26
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_55.png",
+    "copied_stock": null,
+    "input_bytes": 9063,
+    "packed_bytes": 8024,
+    "sha256": "b3ec96c7fc7e21cb0194cd38830d4a1e3bd0f3acb42f5a5ff66d19e6fa4b3a07",
+    "logical_resource_id": 1085
+  },
+  {
+    "ble_id": 55,
+    "review_key": "B06",
+    "actions": [
+      4,
+      18,
+      26
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_55.png",
+    "copied_stock": 33,
+    "input_bytes": 1008,
+    "packed_bytes": 1008,
+    "sha256": "99e450a0a50a3bc7276e0a35954d2f438a09da081f866649e3c987ef7e33e6bc",
+    "logical_resource_id": 1131
+  },
+  {
+    "ble_id": 56,
+    "review_key": "B07",
+    "actions": [
+      15
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_56.png",
+    "copied_stock": null,
+    "input_bytes": 2224,
+    "packed_bytes": 2224,
+    "sha256": "1848c4d3692fcf2176076818267e65a41324baa0da0bad6807b05e620ae955b9",
+    "logical_resource_id": 1040
+  },
+  {
+    "ble_id": 56,
+    "review_key": "B07",
+    "actions": [
+      15
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_56.png",
+    "copied_stock": null,
+    "input_bytes": 10210,
+    "packed_bytes": 9037,
+    "sha256": "9c639313b36b75c37c55c8cb2b7726747ea6a7e1b58cfeb6947467070003133e",
+    "logical_resource_id": 1086
+  },
+  {
+    "ble_id": 56,
+    "review_key": "B07",
+    "actions": [
+      15
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_56.png",
+    "copied_stock": null,
+    "input_bytes": 3161,
+    "packed_bytes": 3161,
+    "sha256": "db9c64d8764ec4ba09a228cd0d63a55b60d6c319034d6c4563471bc4069bfd35",
+    "logical_resource_id": 1132
+  },
+  {
+    "ble_id": 57,
+    "review_key": "B08",
+    "actions": [
+      16
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_57.png",
+    "copied_stock": null,
+    "input_bytes": 2315,
+    "packed_bytes": 2315,
+    "sha256": "5ed9849290c770f2da536d09022aadba3758a42dfec7fefc15cc2eedbb0f72b6",
+    "logical_resource_id": 1041
+  },
+  {
+    "ble_id": 57,
+    "review_key": "B08",
+    "actions": [
+      16
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_57.png",
+    "copied_stock": null,
+    "input_bytes": 10087,
+    "packed_bytes": 8926,
+    "sha256": "54ee41b443231c8194fbaf8f609c5bde3737f613970ea2a45b897bad1e178761",
+    "logical_resource_id": 1087
+  },
+  {
+    "ble_id": 57,
+    "review_key": "B08",
+    "actions": [
+      16
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_57.png",
+    "copied_stock": null,
+    "input_bytes": 3245,
+    "packed_bytes": 3245,
+    "sha256": "c45158c54d9450741a88a9c562fb6dedbb72881382faec930ae855bdf486f06c",
+    "logical_resource_id": 1133
+  },
+  {
+    "ble_id": 58,
+    "review_key": "B09",
+    "actions": [
+      17
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_58.png",
+    "copied_stock": null,
+    "input_bytes": 2790,
+    "packed_bytes": 2790,
+    "sha256": "1d73b273684cf7a76081bf57f7db3f71fa927c5711e0eb1b602900ca129f3473",
+    "logical_resource_id": 1042
+  },
+  {
+    "ble_id": 58,
+    "review_key": "B09",
+    "actions": [
+      17
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_58.png",
+    "copied_stock": null,
+    "input_bytes": 10477,
+    "packed_bytes": 9282,
+    "sha256": "9a7557bd5deffddd760ba5afc2b85fd4e42a9188a9e394b7bffa7734b36224a5",
+    "logical_resource_id": 1088
+  },
+  {
+    "ble_id": 58,
+    "review_key": "B09",
+    "actions": [
+      17
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_58.png",
+    "copied_stock": null,
+    "input_bytes": 3756,
+    "packed_bytes": 3756,
+    "sha256": "b4d40b4de1345dc2cec5bdca1d4fd43ac5384e274431a39fcb3dfa70a74a5407",
+    "logical_resource_id": 1134
+  },
+  {
+    "ble_id": 59,
+    "review_key": "C02",
+    "actions": [
+      7
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_59.png",
+    "copied_stock": null,
+    "input_bytes": 2759,
+    "packed_bytes": 2759,
+    "sha256": "024528b6f90d826bd4df74001b3b8ae5cc8c4e101f87cc94e5e1f32e86fcb968",
+    "logical_resource_id": 1043
+  },
+  {
+    "ble_id": 59,
+    "review_key": "C02",
+    "actions": [
+      7
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_59.png",
+    "copied_stock": null,
+    "input_bytes": 10795,
+    "packed_bytes": 8998,
+    "sha256": "5250d671e29bbd5e51befec1ea78be1d76e98832d577ec91db41445467e9c8a9",
+    "logical_resource_id": 1089
+  },
+  {
+    "ble_id": 59,
+    "review_key": "C02",
+    "actions": [
+      7
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_59.png",
+    "copied_stock": null,
+    "input_bytes": 3000,
+    "packed_bytes": 3000,
+    "sha256": "9f69c143eba35eb17f211c387969044f31d0d7c432dd29d31f9962a4f2a22a05",
+    "logical_resource_id": 1135
+  },
+  {
+    "ble_id": 60,
+    "review_key": "C04",
+    "actions": [
+      7
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_60.png",
+    "copied_stock": null,
+    "input_bytes": 3031,
+    "packed_bytes": 3031,
+    "sha256": "7932b033487b6bd2142acd72e7c53bdd6fe51552b3c557985d66f3594bb8d75d",
+    "logical_resource_id": 1044
+  },
+  {
+    "ble_id": 60,
+    "review_key": "C04",
+    "actions": [
+      7
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_60.png",
+    "copied_stock": null,
+    "input_bytes": 10630,
+    "packed_bytes": 8727,
+    "sha256": "a4a7a2df086cf95fc04a343fa6623b64e6cc6a851c677d1fae25faa099b118e8",
+    "logical_resource_id": 1090
+  },
+  {
+    "ble_id": 60,
+    "review_key": "C04",
+    "actions": [
+      7
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_60.png",
+    "copied_stock": null,
+    "input_bytes": 3037,
+    "packed_bytes": 3037,
+    "sha256": "93c4cb285e3ae878c6789f63a43d98e8f35fa1997aa05f7299d51e79e53d8197",
+    "logical_resource_id": 1136
+  },
+  {
+    "ble_id": 61,
+    "review_key": "C05",
+    "actions": [
+      6
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_61.png",
+    "copied_stock": null,
+    "input_bytes": 914,
+    "packed_bytes": 914,
+    "sha256": "acda8f21a6a69782f72656cb6fb28b6f13d51b212a6b17bbf4ffbd5294c62e29",
+    "logical_resource_id": 1045
+  },
+  {
+    "ble_id": 61,
+    "review_key": "C05",
+    "actions": [
+      6
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_61.png",
+    "copied_stock": null,
+    "input_bytes": 4372,
+    "packed_bytes": 4372,
+    "sha256": "e830e0b775f098327a0d56cb8d4a48e9951a7a01359ccdd3c5823488acf54223",
+    "logical_resource_id": 1091
+  },
+  {
+    "ble_id": 61,
+    "review_key": "C05",
+    "actions": [
+      6
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_61.png",
+    "copied_stock": null,
+    "input_bytes": 1009,
+    "packed_bytes": 982,
+    "sha256": "554fd2652b3f0de4262f21d84c9c46085639cdf7eccf2f266c01323eefd01d41",
+    "logical_resource_id": 1137
+  },
+  {
+    "ble_id": 62,
+    "review_key": "C06",
+    "actions": [
+      7
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_62.png",
+    "copied_stock": null,
+    "input_bytes": 3060,
+    "packed_bytes": 3060,
+    "sha256": "20d4c021748d71d577055f58f1f456c39645cb66c802f0a72c22f43c281d86d4",
+    "logical_resource_id": 1046
+  },
+  {
+    "ble_id": 62,
+    "review_key": "C06",
+    "actions": [
+      7
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_62.png",
+    "copied_stock": null,
+    "input_bytes": 10592,
+    "packed_bytes": 8778,
+    "sha256": "d94bcaf8806fe35824e09e9145a1308ff6e50f80f0a1a524f378b417c5c3061e",
+    "logical_resource_id": 1092
+  },
+  {
+    "ble_id": 62,
+    "review_key": "C06",
+    "actions": [
+      7
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_62.png",
+    "copied_stock": null,
+    "input_bytes": 3060,
+    "packed_bytes": 3060,
+    "sha256": "45f296949481f3e6669400e88ed2f77859fe3e92a6dcf9ddab433be8f9fa2d87",
+    "logical_resource_id": 1138
+  },
+  {
+    "ble_id": 63,
+    "review_key": "C07",
+    "actions": [
+      7
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_63.png",
+    "copied_stock": null,
+    "input_bytes": 882,
+    "packed_bytes": 882,
+    "sha256": "f8ab314f7991e245528f90b0a5a61bd7f34c9355eff1a5f2ac7d65cb17d3b3ed",
+    "logical_resource_id": 1047
+  },
+  {
+    "ble_id": 63,
+    "review_key": "C07",
+    "actions": [
+      7
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_63.png",
+    "copied_stock": null,
+    "input_bytes": 4846,
+    "packed_bytes": 4846,
+    "sha256": "e0b3d719065916d6ac0c77e0e7b20d72cdbf0ed977ea903ce1e037f8eafed323",
+    "logical_resource_id": 1093
+  },
+  {
+    "ble_id": 63,
+    "review_key": "C07",
+    "actions": [
+      7
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_63.png",
+    "copied_stock": null,
+    "input_bytes": 1001,
+    "packed_bytes": 981,
+    "sha256": "52db6a48f8ba79356a388aab752feb90fd46621d7690af5a0ff80ed5f6b54d8c",
+    "logical_resource_id": 1139
+  },
+  {
+    "ble_id": 64,
+    "review_key": "C08",
+    "actions": [
+      7
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_64.png",
+    "copied_stock": null,
+    "input_bytes": 2781,
+    "packed_bytes": 2781,
+    "sha256": "0e67dcaa1ceb8e19de15084368b874273c3ed2bd67586a14cf7c05fd020995f5",
+    "logical_resource_id": 1048
+  },
+  {
+    "ble_id": 64,
+    "review_key": "C08",
+    "actions": [
+      7
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_64.png",
+    "copied_stock": null,
+    "input_bytes": 10853,
+    "packed_bytes": 9150,
+    "sha256": "0d60e3310076a302b242fc8408f7846e3554a6914fba5b1a59d89a1384c86d48",
+    "logical_resource_id": 1094
+  },
+  {
+    "ble_id": 64,
+    "review_key": "C08",
+    "actions": [
+      7
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_64.png",
+    "copied_stock": null,
+    "input_bytes": 3020,
+    "packed_bytes": 3020,
+    "sha256": "581f128f206efd5eb84b54dc0ada0aa61f561ac8ff5edb6a62c04167004ab3d2",
+    "logical_resource_id": 1140
+  },
+  {
+    "ble_id": 65,
+    "review_key": "C09",
+    "actions": [
+      19
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_65.png",
+    "copied_stock": null,
+    "input_bytes": 2446,
+    "packed_bytes": 2446,
+    "sha256": "77585258d9ff09a6540afed0c9bd92e1c6072018a04385850b0297712bde3e75",
+    "logical_resource_id": 1049
+  },
+  {
+    "ble_id": 65,
+    "review_key": "C09",
+    "actions": [
+      19
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_65.png",
+    "copied_stock": null,
+    "input_bytes": 11099,
+    "packed_bytes": 9189,
+    "sha256": "0280795d49056201388ccef47be6d34bee874aada5ae58ed1374ccf5094abfb7",
+    "logical_resource_id": 1095
+  },
+  {
+    "ble_id": 65,
+    "review_key": "C09",
+    "actions": [
+      19
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_65.png",
+    "copied_stock": null,
+    "input_bytes": 2873,
+    "packed_bytes": 2873,
+    "sha256": "ce4cc5a6459169586369bb0f3170a17f0f216c23b819387579512217ca646256",
+    "logical_resource_id": 1141
+  },
+  {
+    "ble_id": 66,
+    "review_key": "C10",
+    "actions": [
+      19
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_66.png",
+    "copied_stock": null,
+    "input_bytes": 2459,
+    "packed_bytes": 2459,
+    "sha256": "d510896bbf759a15dbdc12ee8d4871e38e60353608ece14ec50e2890996408e1",
+    "logical_resource_id": 1050
+  },
+  {
+    "ble_id": 66,
+    "review_key": "C10",
+    "actions": [
+      19
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_66.png",
+    "copied_stock": null,
+    "input_bytes": 11020,
+    "packed_bytes": 9070,
+    "sha256": "cb62d18fb51914aa2b2b2e7794f1e2b2f074ad4635c55a9340f21ab4011cbc96",
+    "logical_resource_id": 1096
+  },
+  {
+    "ble_id": 66,
+    "review_key": "C10",
+    "actions": [
+      19
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_66.png",
+    "copied_stock": null,
+    "input_bytes": 2831,
+    "packed_bytes": 2831,
+    "sha256": "630554dc220b18eae6b487901326998a6ab3364c882f03bacb731c5184b867f9",
+    "logical_resource_id": 1142
+  },
+  {
+    "ble_id": 67,
+    "review_key": "N01",
+    "actions": [
+      28
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_67.png",
+    "copied_stock": null,
+    "input_bytes": 2377,
+    "packed_bytes": 2377,
+    "sha256": "a322c3e66c91a6fe59e0fbd8c91f1a76d09beec32c8ac418086cf136eaeb00d7",
+    "logical_resource_id": 1051
+  },
+  {
+    "ble_id": 67,
+    "review_key": "N01",
+    "actions": [
+      28
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_67.png",
+    "copied_stock": null,
+    "input_bytes": 10967,
+    "packed_bytes": 9117,
+    "sha256": "2fcb419465f5669eb2855818c5d33803ab9d37762d49fdc49393628686eca33c",
+    "logical_resource_id": 1097
+  },
+  {
+    "ble_id": 67,
+    "review_key": "N01",
+    "actions": [
+      28
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_67.png",
+    "copied_stock": null,
+    "input_bytes": 2783,
+    "packed_bytes": 2783,
+    "sha256": "e7e14b9a686dcf2648c8aa07ffa29890114317904e0178fd9a05803ce699ac41",
+    "logical_resource_id": 1143
+  },
+  {
+    "ble_id": 68,
+    "review_key": "N02",
+    "actions": [
+      29
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_68.png",
+    "copied_stock": null,
+    "input_bytes": 2460,
+    "packed_bytes": 2460,
+    "sha256": "ffffd5b084a369cb659bf2cca156c213e72c2988fe82e1bb54d18c757ff88203",
+    "logical_resource_id": 1052
+  },
+  {
+    "ble_id": 68,
+    "review_key": "N02",
+    "actions": [
+      29
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_68.png",
+    "copied_stock": null,
+    "input_bytes": 11030,
+    "packed_bytes": 9265,
+    "sha256": "2218609ad0920fdd266d1e63906c172e3bf8b3d983398b32a5a83a522283052c",
+    "logical_resource_id": 1098
+  },
+  {
+    "ble_id": 68,
+    "review_key": "N02",
+    "actions": [
+      29
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_68.png",
+    "copied_stock": null,
+    "input_bytes": 2865,
+    "packed_bytes": 2865,
+    "sha256": "f75b0e2c17e5e1f5c6e05553fe2a780bedc7875c19b8294f95cdfab787d20363",
+    "logical_resource_id": 1144
+  },
+  {
+    "ble_id": 69,
+    "review_key": "N03",
+    "actions": [
+      30
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_69.png",
+    "copied_stock": null,
+    "input_bytes": 2488,
+    "packed_bytes": 2488,
+    "sha256": "6bca4f21fc5efc0ff65049d7ea5e32b347617bfe71829fb28f834157339e8e39",
+    "logical_resource_id": 1053
+  },
+  {
+    "ble_id": 69,
+    "review_key": "N03",
+    "actions": [
+      30
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_69.png",
+    "copied_stock": null,
+    "input_bytes": 11069,
+    "packed_bytes": 9300,
+    "sha256": "be31780138a263b10ec5939ff797bfd338801de2e4015fe52c86cc5a16f7a5c3",
+    "logical_resource_id": 1099
+  },
+  {
+    "ble_id": 69,
+    "review_key": "N03",
+    "actions": [
+      30
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_69.png",
+    "copied_stock": null,
+    "input_bytes": 2893,
+    "packed_bytes": 2893,
+    "sha256": "c474b2bb1143dcb8d25832be06fae2e570aa3a6b1d86e85c0200df73658de490",
+    "logical_resource_id": 1145
+  },
+  {
+    "ble_id": 70,
+    "review_key": "N04",
+    "actions": [
+      31
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_70.png",
+    "copied_stock": null,
+    "input_bytes": 2432,
+    "packed_bytes": 2432,
+    "sha256": "89ee959da2129d83717c665c3acb51e354a595ad0a0bc78dff356e9ef4c98571",
+    "logical_resource_id": 1054
+  },
+  {
+    "ble_id": 70,
+    "review_key": "N04",
+    "actions": [
+      31
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_70.png",
+    "copied_stock": null,
+    "input_bytes": 11015,
+    "packed_bytes": 9231,
+    "sha256": "50c108f681e7ff1e3265d3207b133f164c54ae4746d2f7504882c8f88f247b3f",
+    "logical_resource_id": 1100
+  },
+  {
+    "ble_id": 70,
+    "review_key": "N04",
+    "actions": [
+      31
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_70.png",
+    "copied_stock": null,
+    "input_bytes": 2830,
+    "packed_bytes": 2830,
+    "sha256": "fa3c90fc58d186538148082cb6661c70ce7ecd3e2a0060890320bd08070e203c",
+    "logical_resource_id": 1146
+  },
+  {
+    "ble_id": 71,
+    "review_key": "N05",
+    "actions": [
+      32
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_71.png",
+    "copied_stock": null,
+    "input_bytes": 2471,
+    "packed_bytes": 2471,
+    "sha256": "f67318dd0acfcedaf2ef387c10daf5c0e679a46cbf07616f9e597f4535c31dfd",
+    "logical_resource_id": 1055
+  },
+  {
+    "ble_id": 71,
+    "review_key": "N05",
+    "actions": [
+      32
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_71.png",
+    "copied_stock": null,
+    "input_bytes": 11057,
+    "packed_bytes": 9316,
+    "sha256": "4b3dfa417905926bb93fea54b08bf13920b77539edd37331e3cffa60d60b794f",
+    "logical_resource_id": 1101
+  },
+  {
+    "ble_id": 71,
+    "review_key": "N05",
+    "actions": [
+      32
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_71.png",
+    "copied_stock": null,
+    "input_bytes": 2876,
+    "packed_bytes": 2876,
+    "sha256": "ba9ed0c3a8e91b52eadea5811831624d10eb3143fb68b24e6b63b187a151adcd",
+    "logical_resource_id": 1147
+  },
+  {
+    "ble_id": 72,
+    "review_key": "N06",
+    "actions": [
+      33
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_72.png",
+    "copied_stock": null,
+    "input_bytes": 2499,
+    "packed_bytes": 2499,
+    "sha256": "6be20d7288ae68a4862cd4df58e94163ef2cc0ab4c209ba08f64be896250892f",
+    "logical_resource_id": 1056
+  },
+  {
+    "ble_id": 72,
+    "review_key": "N06",
+    "actions": [
+      33
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_72.png",
+    "copied_stock": null,
+    "input_bytes": 11090,
+    "packed_bytes": 9324,
+    "sha256": "fbb963a226db4379c143f46cd41848b1a77be1fb3c70eb79d0dc9c936d0a0ce9",
+    "logical_resource_id": 1102
+  },
+  {
+    "ble_id": 72,
+    "review_key": "N06",
+    "actions": [
+      33
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_72.png",
+    "copied_stock": null,
+    "input_bytes": 2901,
+    "packed_bytes": 2901,
+    "sha256": "d43405a0ebbc7302d727a6ce1e2023c151cb11e66f57a403b23617f5251411de",
+    "logical_resource_id": 1148
+  },
+  {
+    "ble_id": 73,
+    "review_key": "N07",
+    "actions": [
+      34
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_73.png",
+    "copied_stock": null,
+    "input_bytes": 2413,
+    "packed_bytes": 2413,
+    "sha256": "1829dd49a5e1849c1fc1101db0ee281cdcb1be291ce4a66f8a5e139a3dc3c8a5",
+    "logical_resource_id": 1057
+  },
+  {
+    "ble_id": 73,
+    "review_key": "N07",
+    "actions": [
+      34
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_73.png",
+    "copied_stock": null,
+    "input_bytes": 11011,
+    "packed_bytes": 9209,
+    "sha256": "ddeb9f10a7882b2d847fc8d018d76eabc99c163ec13eb1412c10896e6bca9fe4",
+    "logical_resource_id": 1103
+  },
+  {
+    "ble_id": 73,
+    "review_key": "N07",
+    "actions": [
+      34
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_73.png",
+    "copied_stock": null,
+    "input_bytes": 2824,
+    "packed_bytes": 2824,
+    "sha256": "f396ce5642ae94a7ba56a05f82cc16310a1a3aa3ff2e304ef9df2c5d7a5d7bf9",
+    "logical_resource_id": 1149
+  },
+  {
+    "ble_id": 74,
+    "review_key": "N08",
+    "actions": [
+      35
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_74.png",
+    "copied_stock": null,
+    "input_bytes": 2495,
+    "packed_bytes": 2495,
+    "sha256": "d234234e65157a4028873762d8316e47503a45ed3fafa138137ddc7ac8eda053",
+    "logical_resource_id": 1058
+  },
+  {
+    "ble_id": 74,
+    "review_key": "N08",
+    "actions": [
+      35
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_74.png",
+    "copied_stock": null,
+    "input_bytes": 11080,
+    "packed_bytes": 9312,
+    "sha256": "5fdec033e4355cdd3233b23a48f706b71af760f16f276f6485d1f2d10c544993",
+    "logical_resource_id": 1104
+  },
+  {
+    "ble_id": 74,
+    "review_key": "N08",
+    "actions": [
+      35
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_74.png",
+    "copied_stock": null,
+    "input_bytes": 2915,
+    "packed_bytes": 2915,
+    "sha256": "2316967de3b35964ad58f1734086060b43cd6fe94581d59706c79055bbfb0921",
+    "logical_resource_id": 1150
+  },
+  {
+    "ble_id": 75,
+    "review_key": "N09",
+    "actions": [
+      36
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_75.png",
+    "copied_stock": null,
+    "input_bytes": 2497,
+    "packed_bytes": 2497,
+    "sha256": "0714290e8262feff5c39dd0ef48135573aeb74bc5653a518bcae0ac4429221e1",
+    "logical_resource_id": 1059
+  },
+  {
+    "ble_id": 75,
+    "review_key": "N09",
+    "actions": [
+      36
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_75.png",
+    "copied_stock": null,
+    "input_bytes": 11090,
+    "packed_bytes": 9311,
+    "sha256": "b6b11046426c57122e802923c9391508d73ae1c74a593de90c4ec6496b434f78",
+    "logical_resource_id": 1105
+  },
+  {
+    "ble_id": 75,
+    "review_key": "N09",
+    "actions": [
+      36
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_75.png",
+    "copied_stock": null,
+    "input_bytes": 2893,
+    "packed_bytes": 2893,
+    "sha256": "825ddcda5daa4f8de9d26cc07d9bf0abe8612c459f76b33119a61b0c0d08c477",
+    "logical_resource_id": 1151
+  },
+  {
+    "ble_id": 76,
+    "review_key": "N10",
+    "actions": [
+      37
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_76.png",
+    "copied_stock": null,
+    "input_bytes": 2517,
+    "packed_bytes": 2517,
+    "sha256": "53776c70a3c14c60f8088a13a8bb0929c0abb8e68d35b196123a71eff1b07b52",
+    "logical_resource_id": 1060
+  },
+  {
+    "ble_id": 76,
+    "review_key": "N10",
+    "actions": [
+      37
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_76.png",
+    "copied_stock": null,
+    "input_bytes": 11102,
+    "packed_bytes": 9339,
+    "sha256": "83ce40a675745e9313f4ed40405492233d99dd4f323c2e7e782000fbb407a64e",
+    "logical_resource_id": 1106
+  },
+  {
+    "ble_id": 76,
+    "review_key": "N10",
+    "actions": [
+      37
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_76.png",
+    "copied_stock": null,
+    "input_bytes": 2961,
+    "packed_bytes": 2961,
+    "sha256": "0b90466352e214f2ba095d1ac889a486a0b9ab46ddc842f2698477c29d05e8ad",
+    "logical_resource_id": 1152
+  },
+  {
+    "ble_id": 77,
+    "review_key": "N11",
+    "actions": [
+      38
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_77.png",
+    "copied_stock": null,
+    "input_bytes": 2435,
+    "packed_bytes": 2435,
+    "sha256": "1c2c779317ee642e5ca5044dc9eaa25bf57a2774a2eab929225fe216e32185a4",
+    "logical_resource_id": 1061
+  },
+  {
+    "ble_id": 77,
+    "review_key": "N11",
+    "actions": [
+      38
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_77.png",
+    "copied_stock": null,
+    "input_bytes": 11003,
+    "packed_bytes": 9188,
+    "sha256": "b422ee0418b33eaf16adb145d93b2a3faea06423f581633fad1660b206c0190b",
+    "logical_resource_id": 1107
+  },
+  {
+    "ble_id": 77,
+    "review_key": "N11",
+    "actions": [
+      38
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_77.png",
+    "copied_stock": null,
+    "input_bytes": 2844,
+    "packed_bytes": 2844,
+    "sha256": "61458ead060387ad257d4f2046aeec351aaffad440ae76660a2bf9cfba8837f0",
+    "logical_resource_id": 1153
+  },
+  {
+    "ble_id": 78,
+    "review_key": "N12",
+    "actions": [
+      39
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_78.png",
+    "copied_stock": null,
+    "input_bytes": 2535,
+    "packed_bytes": 2535,
+    "sha256": "1a260d6c55667a0d93d25a150bf5cfea06b626fb0df6152509fca825b0d3a25e",
+    "logical_resource_id": 1062
+  },
+  {
+    "ble_id": 78,
+    "review_key": "N12",
+    "actions": [
+      39
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_78.png",
+    "copied_stock": null,
+    "input_bytes": 11076,
+    "packed_bytes": 9348,
+    "sha256": "8a8de5a77926109152a776f642bbbc09bf4c241207a63f82fa50418d88de44a4",
+    "logical_resource_id": 1108
+  },
+  {
+    "ble_id": 78,
+    "review_key": "N12",
+    "actions": [
+      39
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_78.png",
+    "copied_stock": null,
+    "input_bytes": 2939,
+    "packed_bytes": 2939,
+    "sha256": "7dde3a9b5ee61e87bc52f21e2cdf29a17b097be138ba46ce9e9079f08247a790",
+    "logical_resource_id": 1154
+  },
+  {
+    "ble_id": 79,
+    "review_key": "N13",
+    "actions": [
+      40
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_79.png",
+    "copied_stock": null,
+    "input_bytes": 2549,
+    "packed_bytes": 2549,
+    "sha256": "d2141b1d260ca0d4e3f9f4bfaba47fccf28bbdc3807e19e040da479cb3f40eab",
+    "logical_resource_id": 1063
+  },
+  {
+    "ble_id": 79,
+    "review_key": "N13",
+    "actions": [
+      40
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_79.png",
+    "copied_stock": null,
+    "input_bytes": 11107,
+    "packed_bytes": 9377,
+    "sha256": "80e7c5915fcd89ad29e17ad3ec80733eb7cee0b795a412bb57e107ca3c9639d9",
+    "logical_resource_id": 1109
+  },
+  {
+    "ble_id": 79,
+    "review_key": "N13",
+    "actions": [
+      40
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_79.png",
+    "copied_stock": null,
+    "input_bytes": 2967,
+    "packed_bytes": 2967,
+    "sha256": "20f3661830995c0b5b0122e62c2d9e9098b2f111df173fe39f459cd17acab12f",
+    "logical_resource_id": 1155
+  },
+  {
+    "ble_id": 80,
+    "review_key": "N14",
+    "actions": [
+      41
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_80.png",
+    "copied_stock": null,
+    "input_bytes": 2498,
+    "packed_bytes": 2498,
+    "sha256": "69da89bcf131d1e64ce0e7e4678eb60c68c9f38f2d149f9e33b805816ca9da1d",
+    "logical_resource_id": 1064
+  },
+  {
+    "ble_id": 80,
+    "review_key": "N14",
+    "actions": [
+      41
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_80.png",
+    "copied_stock": null,
+    "input_bytes": 11037,
+    "packed_bytes": 9291,
+    "sha256": "2ecc666ee855fce40383e57b73797b3be41844c94c0feb6d38ef562c4525d9ec",
+    "logical_resource_id": 1110
+  },
+  {
+    "ble_id": 80,
+    "review_key": "N14",
+    "actions": [
+      41
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_80.png",
+    "copied_stock": null,
+    "input_bytes": 2902,
+    "packed_bytes": 2902,
+    "sha256": "ab7c3daf772f5b00d3adc3b7b064c8de9e98a78033015ce73e8589335e9a7465",
+    "logical_resource_id": 1156
+  },
+  {
+    "ble_id": 81,
+    "review_key": "N15",
+    "actions": [
+      42
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_81.png",
+    "copied_stock": null,
+    "input_bytes": 2528,
+    "packed_bytes": 2528,
+    "sha256": "0df2ab2c1b2001cccd8566889d479607cf1989397be10535115479acc685dc94",
+    "logical_resource_id": 1065
+  },
+  {
+    "ble_id": 81,
+    "review_key": "N15",
+    "actions": [
+      42
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_81.png",
+    "copied_stock": null,
+    "input_bytes": 11090,
+    "packed_bytes": 9380,
+    "sha256": "2dbd338b1413536afd07451f28bc2a3a24cf80db9f91ec51217842fe52874b2e",
+    "logical_resource_id": 1111
+  },
+  {
+    "ble_id": 81,
+    "review_key": "N15",
+    "actions": [
+      42
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_81.png",
+    "copied_stock": null,
+    "input_bytes": 2939,
+    "packed_bytes": 2939,
+    "sha256": "001816e752fc9cd4d98e2d67411a82bba35342b1becc9a15276997562a03a0e2",
+    "logical_resource_id": 1157
+  },
+  {
+    "ble_id": 82,
+    "review_key": "N16",
+    "actions": [
+      43
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_82.png",
+    "copied_stock": null,
+    "input_bytes": 2560,
+    "packed_bytes": 2560,
+    "sha256": "fa8c30fcc3b7a812d5d9598635afbe5098cf142370e6a17a5c1145116002f8ca",
+    "logical_resource_id": 1066
+  },
+  {
+    "ble_id": 82,
+    "review_key": "N16",
+    "actions": [
+      43
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_82.png",
+    "copied_stock": null,
+    "input_bytes": 11117,
+    "packed_bytes": 9388,
+    "sha256": "486b76368a8339523bcf4d79fd03f8608115314513050c176d73c281d514eeef",
+    "logical_resource_id": 1112
+  },
+  {
+    "ble_id": 82,
+    "review_key": "N16",
+    "actions": [
+      43
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_82.png",
+    "copied_stock": null,
+    "input_bytes": 2975,
+    "packed_bytes": 2975,
+    "sha256": "29a7690f16fc5358c421c075cddbfc04b7a34e0473c5adf9764a3b2e5a07db6a",
+    "logical_resource_id": 1158
+  },
+  {
+    "ble_id": 83,
+    "review_key": "N17",
+    "actions": [
+      44
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_83.png",
+    "copied_stock": null,
+    "input_bytes": 2474,
+    "packed_bytes": 2474,
+    "sha256": "1a0c333913463aecefbe5fdd2f4a8ca1bc91360b998b68760b0f0e793cb0f21b",
+    "logical_resource_id": 1067
+  },
+  {
+    "ble_id": 83,
+    "review_key": "N17",
+    "actions": [
+      44
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_83.png",
+    "copied_stock": null,
+    "input_bytes": 11055,
+    "packed_bytes": 9283,
+    "sha256": "849a6fd72509e0e767ec782d7e9a81751f124e14893c4b595b98f11bc3a18c89",
+    "logical_resource_id": 1113
+  },
+  {
+    "ble_id": 83,
+    "review_key": "N17",
+    "actions": [
+      44
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_83.png",
+    "copied_stock": null,
+    "input_bytes": 2889,
+    "packed_bytes": 2889,
+    "sha256": "e92eb88ef35bff4524327389c04d3bb343b7f493592da3886d6e271b5236a140",
+    "logical_resource_id": 1159
+  },
+  {
+    "ble_id": 84,
+    "review_key": "N18",
+    "actions": [
+      45
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_84.png",
+    "copied_stock": null,
+    "input_bytes": 2552,
+    "packed_bytes": 2552,
+    "sha256": "18ed81f38ff3550c075f1ccd0f03cb5b53216705027f6741129fb765d0229ad8",
+    "logical_resource_id": 1068
+  },
+  {
+    "ble_id": 84,
+    "review_key": "N18",
+    "actions": [
+      45
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_84.png",
+    "copied_stock": null,
+    "input_bytes": 11115,
+    "packed_bytes": 9393,
+    "sha256": "1d2719bd13d7df14b5c6c94f5f6aef3561c4cb406bca758efd4a929329b4e4aa",
+    "logical_resource_id": 1114
+  },
+  {
+    "ble_id": 84,
+    "review_key": "N18",
+    "actions": [
+      45
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_84.png",
+    "copied_stock": null,
+    "input_bytes": 2979,
+    "packed_bytes": 2979,
+    "sha256": "ab3290640977ac1cd43a42ee5ec37c48331758ab05c307af28d5f222e09a661b",
+    "logical_resource_id": 1160
+  },
+  {
+    "ble_id": 85,
+    "review_key": "N19",
+    "actions": [
+      46
+    ],
+    "theme": "STD",
+    "size": 68,
+    "resource": "naviInfo.pak>turnArrow_85.png",
+    "copied_stock": null,
+    "input_bytes": 2554,
+    "packed_bytes": 2554,
+    "sha256": "1a5631d4f7e3e48f4ea006c7d355297094e4ae2bfb8fe3998bfbcb1d81a045f0",
+    "logical_resource_id": 1069
+  },
+  {
+    "ble_id": 85,
+    "review_key": "N19",
+    "actions": [
+      46
+    ],
+    "theme": "BM",
+    "size": 80,
+    "resource": "naviInfoBM.pak>turnArrow_85.png",
+    "copied_stock": null,
+    "input_bytes": 11114,
+    "packed_bytes": 9382,
+    "sha256": "0aa31e4791546d6425e05f96b0c5aaac3a16f9d616e6a49d28d6b912ab3553e4",
+    "logical_resource_id": 1115
+  },
+  {
+    "ble_id": 85,
+    "review_key": "N19",
+    "actions": [
+      46
+    ],
+    "theme": "MI",
+    "size": 82,
+    "resource": "naviInfoMI.pak>turnArrow_85.png",
+    "copied_stock": null,
+    "input_bytes": 2975,
+    "packed_bytes": 2975,
+    "sha256": "f2131b8b7d99f1dbc22b3dcab782d234039da35c5efd5217d4c7df634f2d5c37",
+    "logical_resource_id": 1161
+  }
+]

@@ -1,0 +1,26 @@
+name: 问题反馈
+description: 导航、HUD、连接或升级问题
+body:
+  - type: input
+    id: hardware
+    attributes:
+      label: 盒子项目号、底包版本、HUD 模块号
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 使用的项目固件版本
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 如何复现，预期与实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 已脱敏的证据
+      description: 删除起终点、路线、坐标、设备地址、UUID、密码和令牌。

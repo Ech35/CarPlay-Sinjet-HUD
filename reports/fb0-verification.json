@@ -1,0 +1,982 @@
+{
+  "model": "HUDBAFB0",
+  "version": 20201013,
+  "previous_package_version": 20201012,
+  "source_sha256": "eb6b541a6a6050349f64d1cdb7b52459bf5d810c4e214ccc1b7777f63788f9dc",
+  "source_bytes": 3117056,
+  "bytes": 3223552,
+  "md5": "e49a50f931b9c3678abfdc09c141b46b",
+  "sha256": "27358bfb627fbc8cb295a5776e324996bce295ca58e7179762880c5e3f89143d",
+  "system_original_bytes": 607652,
+  "system_bytes": 607812,
+  "appended_code_bytes": 160,
+  "system_changed_original_bytes": 13,
+  "system_end": "0x80b4844",
+  "original_and_new_final_4k_boundary": "0x80b5000",
+  "patch_sites": [
+    "0x8090394",
+    "0x8060bf8",
+    "0x80653b8"
+  ],
+  "records": 391,
+  "unchanged_inner_records": 328,
+  "original_resource_groups": 15,
+  "added_icons": 46,
+  "theme_navigation_shared": true,
+  "icon_size": [
+    68,
+    68
+  ],
+  "icon_mode": "RGBA",
+  "sector_completion_markers": 1212,
+  "sector_marker_value": "0xfe",
+  "native_header_checks": 391,
+  "native_md5_accept_cases": 63,
+  "native_md5_tamper_rejection": true,
+  "draw_cases": 1024,
+  "receive_cases": 276,
+  "native_emitter_cases": 46,
+  "legacy_logical_cases": 11139,
+  "legacy_catalog_cases": 414,
+  "native_resource_reader_cases": 374,
+  "native_image_loader_open_cases": 46,
+  "native_image_cache_md5_cases": 46,
+  "native_startup_decoder": true,
+  "new_heap_or_globals": false,
+  "physical_hud_tested": false,
+  "bootloader_flash_tested": false,
+  "icons": [
+    {
+      "ble_id": 40,
+      "review_key": "F01",
+      "actions": [
+        5
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_40.png",
+      "copied_stock": null,
+      "input_bytes": 3999,
+      "packed_bytes": 3831,
+      "sha256": "be0c062bfacb4736aaed6b906b9dd4b4eeeba35e6af9f60532c58c96fad69c6b",
+      "logical_resource_id": 16384,
+      "meanings": [
+        "沿路行驶"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 41,
+      "review_key": "A01",
+      "actions": [
+        8,
+        22
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_41.png",
+      "copied_stock": null,
+      "input_bytes": 2341,
+      "packed_bytes": 2252,
+      "sha256": "533689e57ed0f9a51458545cefa912b3be66efd2091098e5e2706060ee51dd9f",
+      "logical_resource_id": 16385,
+      "meanings": [
+        "驶入出口匝道",
+        "高速左侧出口"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 42,
+      "review_key": "A02",
+      "actions": [
+        8,
+        23
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_42.png",
+      "copied_stock": null,
+      "input_bytes": 2546,
+      "packed_bytes": 2522,
+      "sha256": "f1b23c82bb8d69b4bf47f445eca30ecb2f58698b388566963f5866238e479a01",
+      "logical_resource_id": 16386,
+      "meanings": [
+        "驶入出口匝道",
+        "高速右侧出口"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 43,
+      "review_key": "A03",
+      "actions": [
+        9
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_43.png",
+      "copied_stock": null,
+      "input_bytes": 2488,
+      "packed_bytes": 2417,
+      "sha256": "3efd83dcc6442d0b6528c0d729f1661652d26cc7518e34a6118712495a38f51f",
+      "logical_resource_id": 16387,
+      "meanings": [
+        "驶入入口匝道"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 44,
+      "review_key": "A04",
+      "actions": [
+        9
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_44.png",
+      "copied_stock": null,
+      "input_bytes": 2480,
+      "packed_bytes": 2444,
+      "sha256": "e94f7e9d8440814d9a15e143402a2b3199b0706b74b86aeb625846506896382d",
+      "logical_resource_id": 16388,
+      "meanings": [
+        "驶入入口匝道"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 45,
+      "review_key": "A05",
+      "actions": [
+        13
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_45.png",
+      "copied_stock": 36,
+      "input_bytes": 1213,
+      "packed_bytes": 1213,
+      "sha256": "d6d5d456c1af553e3a148533c810c603d161ae17ab5f63bccf7aa92f458cd1df",
+      "logical_resource_id": 16389,
+      "meanings": [
+        "保持靠左"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 46,
+      "review_key": "A06",
+      "actions": [
+        14
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_46.png",
+      "copied_stock": 35,
+      "input_bytes": 1194,
+      "packed_bytes": 1194,
+      "sha256": "23a32f57ab61579d2fa4684722dea91c3969516e580198a6654dc64cd2249d2b",
+      "logical_resource_id": 16390,
+      "meanings": [
+        "保持靠右"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 47,
+      "review_key": "A07",
+      "actions": [
+        20
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_47.png",
+      "copied_stock": null,
+      "input_bytes": 2187,
+      "packed_bytes": 2187,
+      "sha256": "90768bcec3cba4f90778e69919154f031c1b5c0f6094dacbdbacb9b66a68ced0",
+      "logical_resource_id": 16391,
+      "meanings": [
+        "道路尽头左转"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 48,
+      "review_key": "A08",
+      "actions": [
+        21
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_48.png",
+      "copied_stock": null,
+      "input_bytes": 2258,
+      "packed_bytes": 2220,
+      "sha256": "bf9867c5c4118adb28ef031806012e3c50ce112a082c20f09ae86564607183b3",
+      "logical_resource_id": 16392,
+      "meanings": [
+        "道路尽头右转"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 49,
+      "review_key": "A09",
+      "actions": [
+        11
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_49.png",
+      "copied_stock": null,
+      "input_bytes": 2785,
+      "packed_bytes": 2785,
+      "sha256": "6b71dad51785493ffceca4f415b8ba690bef3f8cf0ca754442d273f83ee74513",
+      "logical_resource_id": 16393,
+      "meanings": [
+        "起步／前往路线"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 50,
+      "review_key": "B01",
+      "actions": [
+        24
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_50.png",
+      "copied_stock": null,
+      "input_bytes": 1925,
+      "packed_bytes": 1925,
+      "sha256": "fc5307f396daf5906793f97b05793413bd59b62dce830b7ccf091cb49e13417b",
+      "logical_resource_id": 16394,
+      "meanings": [
+        "目的地在左侧"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 51,
+      "review_key": "B02",
+      "actions": [
+        25
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_51.png",
+      "copied_stock": null,
+      "input_bytes": 2029,
+      "packed_bytes": 2029,
+      "sha256": "9636e629de9fc4795e59ca1172e36a4439aa407505eaab331c59a024ebe8711f",
+      "logical_resource_id": 16395,
+      "meanings": [
+        "目的地在右侧"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 52,
+      "review_key": "B03",
+      "actions": [
+        51
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_52.png",
+      "copied_stock": 31,
+      "input_bytes": 791,
+      "packed_bytes": 791,
+      "sha256": "77d6a51291627aad4ab0d8b0c5fc6c25d18ea96f9d0d9ae6fe3ab73802e78850",
+      "logical_resource_id": 16396,
+      "meanings": [
+        "切换高速"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 53,
+      "review_key": "B04",
+      "actions": [
+        51,
+        52
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_53.png",
+      "copied_stock": 37,
+      "input_bytes": 938,
+      "packed_bytes": 938,
+      "sha256": "7578475cc6818c44e6ce29a745fd4848ebc05d12f5ca1b3df41dc5102a25fe10",
+      "logical_resource_id": 16397,
+      "meanings": [
+        "切换高速",
+        "向左切换高速"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 54,
+      "review_key": "B05",
+      "actions": [
+        51,
+        53
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_54.png",
+      "copied_stock": 38,
+      "input_bytes": 919,
+      "packed_bytes": 919,
+      "sha256": "0f168b07ed99c9fa29b4ee4c54221a85386cc90938bef11c7b9aef8a63b622ac",
+      "logical_resource_id": 16398,
+      "meanings": [
+        "切换高速",
+        "向右切换高速"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 55,
+      "review_key": "B06",
+      "actions": [
+        4,
+        18,
+        26
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_55.png",
+      "copied_stock": 33,
+      "input_bytes": 1588,
+      "packed_bytes": 1588,
+      "sha256": "e161f0007c847c287c108c75a4803108827e98d1534bdf0d9e55937db7639c93",
+      "logical_resource_id": 16399,
+      "meanings": [
+        "掉头",
+        "掉头后开始路线",
+        "允许时掉头"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 56,
+      "review_key": "B07",
+      "actions": [
+        15
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_56.png",
+      "copied_stock": null,
+      "input_bytes": 2224,
+      "packed_bytes": 2224,
+      "sha256": "1848c4d3692fcf2176076818267e65a41324baa0da0bad6807b05e620ae955b9",
+      "logical_resource_id": 16400,
+      "meanings": [
+        "驶入轮渡"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 57,
+      "review_key": "B08",
+      "actions": [
+        16
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_57.png",
+      "copied_stock": null,
+      "input_bytes": 2315,
+      "packed_bytes": 2315,
+      "sha256": "5ed9849290c770f2da536d09022aadba3758a42dfec7fefc15cc2eedbb0f72b6",
+      "logical_resource_id": 16401,
+      "meanings": [
+        "驶离轮渡"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 58,
+      "review_key": "B09",
+      "actions": [
+        17
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_58.png",
+      "copied_stock": null,
+      "input_bytes": 2790,
+      "packed_bytes": 2790,
+      "sha256": "1d73b273684cf7a76081bf57f7db3f71fa927c5711e0eb1b602900ca129f3473",
+      "logical_resource_id": 16402,
+      "meanings": [
+        "更换轮渡"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 59,
+      "review_key": "C02",
+      "actions": [
+        7
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_59.png",
+      "copied_stock": null,
+      "input_bytes": 2759,
+      "packed_bytes": 2759,
+      "sha256": "024528b6f90d826bd4df74001b3b8ae5cc8c4e101f87cc94e5e1f32e86fcb968",
+      "logical_resource_id": 16403,
+      "meanings": [
+        "驶出环岛"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 60,
+      "review_key": "C04",
+      "actions": [
+        7
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_60.png",
+      "copied_stock": null,
+      "input_bytes": 3031,
+      "packed_bytes": 3031,
+      "sha256": "7932b033487b6bd2142acd72e7c53bdd6fe51552b3c557985d66f3594bb8d75d",
+      "logical_resource_id": 16404,
+      "meanings": [
+        "驶出环岛"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 61,
+      "review_key": "C05",
+      "actions": [
+        6
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_61.png",
+      "copied_stock": null,
+      "input_bytes": 914,
+      "packed_bytes": 914,
+      "sha256": "acda8f21a6a69782f72656cb6fb28b6f13d51b212a6b17bbf4ffbd5294c62e29",
+      "logical_resource_id": 16405,
+      "meanings": [
+        "驶入环岛"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 62,
+      "review_key": "C06",
+      "actions": [
+        7
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_62.png",
+      "copied_stock": null,
+      "input_bytes": 3060,
+      "packed_bytes": 3060,
+      "sha256": "20d4c021748d71d577055f58f1f456c39645cb66c802f0a72c22f43c281d86d4",
+      "logical_resource_id": 16406,
+      "meanings": [
+        "驶出环岛"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 63,
+      "review_key": "C07",
+      "actions": [
+        7
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_63.png",
+      "copied_stock": null,
+      "input_bytes": 882,
+      "packed_bytes": 882,
+      "sha256": "f8ab314f7991e245528f90b0a5a61bd7f34c9355eff1a5f2ac7d65cb17d3b3ed",
+      "logical_resource_id": 16407,
+      "meanings": [
+        "驶出环岛"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 64,
+      "review_key": "C08",
+      "actions": [
+        7
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_64.png",
+      "copied_stock": null,
+      "input_bytes": 2781,
+      "packed_bytes": 2781,
+      "sha256": "0e67dcaa1ceb8e19de15084368b874273c3ed2bd67586a14cf7c05fd020995f5",
+      "logical_resource_id": 16408,
+      "meanings": [
+        "驶出环岛"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 65,
+      "review_key": "C09",
+      "actions": [
+        19
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_65.png",
+      "copied_stock": null,
+      "input_bytes": 2446,
+      "packed_bytes": 2446,
+      "sha256": "77585258d9ff09a6540afed0c9bd92e1c6072018a04385850b0297712bde3e75",
+      "logical_resource_id": 16409,
+      "meanings": [
+        "环岛内掉头"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 66,
+      "review_key": "C10",
+      "actions": [
+        19
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_66.png",
+      "copied_stock": null,
+      "input_bytes": 2459,
+      "packed_bytes": 2459,
+      "sha256": "d510896bbf759a15dbdc12ee8d4871e38e60353608ece14ec50e2890996408e1",
+      "logical_resource_id": 16410,
+      "meanings": [
+        "环岛内掉头"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 67,
+      "review_key": "N01",
+      "actions": [
+        28
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_67.png",
+      "copied_stock": null,
+      "input_bytes": 2377,
+      "packed_bytes": 2377,
+      "sha256": "a322c3e66c91a6fe59e0fbd8c91f1a76d09beec32c8ac418086cf136eaeb00d7",
+      "logical_resource_id": 16411,
+      "meanings": [
+        "环岛第 1 出口"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 68,
+      "review_key": "N02",
+      "actions": [
+        29
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_68.png",
+      "copied_stock": null,
+      "input_bytes": 2460,
+      "packed_bytes": 2460,
+      "sha256": "ffffd5b084a369cb659bf2cca156c213e72c2988fe82e1bb54d18c757ff88203",
+      "logical_resource_id": 16412,
+      "meanings": [
+        "环岛第 2 出口"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 69,
+      "review_key": "N03",
+      "actions": [
+        30
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_69.png",
+      "copied_stock": null,
+      "input_bytes": 2488,
+      "packed_bytes": 2488,
+      "sha256": "6bca4f21fc5efc0ff65049d7ea5e32b347617bfe71829fb28f834157339e8e39",
+      "logical_resource_id": 16413,
+      "meanings": [
+        "环岛第 3 出口"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 70,
+      "review_key": "N04",
+      "actions": [
+        31
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_70.png",
+      "copied_stock": null,
+      "input_bytes": 2432,
+      "packed_bytes": 2432,
+      "sha256": "89ee959da2129d83717c665c3acb51e354a595ad0a0bc78dff356e9ef4c98571",
+      "logical_resource_id": 16414,
+      "meanings": [
+        "环岛第 4 出口"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 71,
+      "review_key": "N05",
+      "actions": [
+        32
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_71.png",
+      "copied_stock": null,
+      "input_bytes": 2471,
+      "packed_bytes": 2471,
+      "sha256": "f67318dd0acfcedaf2ef387c10daf5c0e679a46cbf07616f9e597f4535c31dfd",
+      "logical_resource_id": 16415,
+      "meanings": [
+        "环岛第 5 出口"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 72,
+      "review_key": "N06",
+      "actions": [
+        33
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_72.png",
+      "copied_stock": null,
+      "input_bytes": 2499,
+      "packed_bytes": 2499,
+      "sha256": "6be20d7288ae68a4862cd4df58e94163ef2cc0ab4c209ba08f64be896250892f",
+      "logical_resource_id": 16416,
+      "meanings": [
+        "环岛第 6 出口"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 73,
+      "review_key": "N07",
+      "actions": [
+        34
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_73.png",
+      "copied_stock": null,
+      "input_bytes": 2413,
+      "packed_bytes": 2413,
+      "sha256": "1829dd49a5e1849c1fc1101db0ee281cdcb1be291ce4a66f8a5e139a3dc3c8a5",
+      "logical_resource_id": 16417,
+      "meanings": [
+        "环岛第 7 出口"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 74,
+      "review_key": "N08",
+      "actions": [
+        35
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_74.png",
+      "copied_stock": null,
+      "input_bytes": 2495,
+      "packed_bytes": 2495,
+      "sha256": "d234234e65157a4028873762d8316e47503a45ed3fafa138137ddc7ac8eda053",
+      "logical_resource_id": 16418,
+      "meanings": [
+        "环岛第 8 出口"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 75,
+      "review_key": "N09",
+      "actions": [
+        36
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_75.png",
+      "copied_stock": null,
+      "input_bytes": 2497,
+      "packed_bytes": 2497,
+      "sha256": "0714290e8262feff5c39dd0ef48135573aeb74bc5653a518bcae0ac4429221e1",
+      "logical_resource_id": 16419,
+      "meanings": [
+        "环岛第 9 出口"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 76,
+      "review_key": "N10",
+      "actions": [
+        37
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_76.png",
+      "copied_stock": null,
+      "input_bytes": 2517,
+      "packed_bytes": 2517,
+      "sha256": "53776c70a3c14c60f8088a13a8bb0929c0abb8e68d35b196123a71eff1b07b52",
+      "logical_resource_id": 16420,
+      "meanings": [
+        "环岛第 10 出口"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 77,
+      "review_key": "N11",
+      "actions": [
+        38
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_77.png",
+      "copied_stock": null,
+      "input_bytes": 2435,
+      "packed_bytes": 2435,
+      "sha256": "1c2c779317ee642e5ca5044dc9eaa25bf57a2774a2eab929225fe216e32185a4",
+      "logical_resource_id": 16421,
+      "meanings": [
+        "环岛第 11 出口"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 78,
+      "review_key": "N12",
+      "actions": [
+        39
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_78.png",
+      "copied_stock": null,
+      "input_bytes": 2535,
+      "packed_bytes": 2535,
+      "sha256": "1a260d6c55667a0d93d25a150bf5cfea06b626fb0df6152509fca825b0d3a25e",
+      "logical_resource_id": 16422,
+      "meanings": [
+        "环岛第 12 出口"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 79,
+      "review_key": "N13",
+      "actions": [
+        40
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_79.png",
+      "copied_stock": null,
+      "input_bytes": 2549,
+      "packed_bytes": 2549,
+      "sha256": "d2141b1d260ca0d4e3f9f4bfaba47fccf28bbdc3807e19e040da479cb3f40eab",
+      "logical_resource_id": 16423,
+      "meanings": [
+        "环岛第 13 出口"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 80,
+      "review_key": "N14",
+      "actions": [
+        41
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_80.png",
+      "copied_stock": null,
+      "input_bytes": 2498,
+      "packed_bytes": 2498,
+      "sha256": "69da89bcf131d1e64ce0e7e4678eb60c68c9f38f2d149f9e33b805816ca9da1d",
+      "logical_resource_id": 16424,
+      "meanings": [
+        "环岛第 14 出口"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 81,
+      "review_key": "N15",
+      "actions": [
+        42
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_81.png",
+      "copied_stock": null,
+      "input_bytes": 2528,
+      "packed_bytes": 2528,
+      "sha256": "0df2ab2c1b2001cccd8566889d479607cf1989397be10535115479acc685dc94",
+      "logical_resource_id": 16425,
+      "meanings": [
+        "环岛第 15 出口"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 82,
+      "review_key": "N16",
+      "actions": [
+        43
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_82.png",
+      "copied_stock": null,
+      "input_bytes": 2560,
+      "packed_bytes": 2560,
+      "sha256": "fa8c30fcc3b7a812d5d9598635afbe5098cf142370e6a17a5c1145116002f8ca",
+      "logical_resource_id": 16426,
+      "meanings": [
+        "环岛第 16 出口"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 83,
+      "review_key": "N17",
+      "actions": [
+        44
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_83.png",
+      "copied_stock": null,
+      "input_bytes": 2474,
+      "packed_bytes": 2474,
+      "sha256": "1a0c333913463aecefbe5fdd2f4a8ca1bc91360b998b68760b0f0e793cb0f21b",
+      "logical_resource_id": 16427,
+      "meanings": [
+        "环岛第 17 出口"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 84,
+      "review_key": "N18",
+      "actions": [
+        45
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_84.png",
+      "copied_stock": null,
+      "input_bytes": 2552,
+      "packed_bytes": 2552,
+      "sha256": "18ed81f38ff3550c075f1ccd0f03cb5b53216705027f6741129fb765d0229ad8",
+      "logical_resource_id": 16428,
+      "meanings": [
+        "环岛第 18 出口"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    },
+    {
+      "ble_id": 85,
+      "review_key": "N19",
+      "actions": [
+        46
+      ],
+      "theme": "STD",
+      "size": 68,
+      "resource": "naviInfo.pak>turnArrow_85.png",
+      "copied_stock": null,
+      "input_bytes": 2554,
+      "packed_bytes": 2554,
+      "sha256": "1a5631d4f7e3e48f4ea006c7d355297094e4ae2bfb8fe3998bfbcb1d81a045f0",
+      "logical_resource_id": 16429,
+      "meanings": [
+        "环岛第 19 出口"
+      ],
+      "model_theme": "FB0 shared navigation theme",
+      "verified_review_pixels": true
+    }
+  ]
+}
