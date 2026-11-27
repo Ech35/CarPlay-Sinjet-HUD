@@ -6,46 +6,33 @@
 
 转向 · 距离 · 道路文字 · 车道引导
 
-[开始使用](docs/README.md)　·　[下载固件](docs/versions.md)　·　[盒子刷写](docs/luxianxing-flashing.md)　·　[其他品牌适配](docs/box-porting.md)　·　[参考与致谢](docs/references.md)
+[按型号下载固件](docs/versions.md)　·　[使用教程](docs/README.md)　·　[参考与致谢](docs/references.md)
 
-<img src="assets/project-cover.png" width="100%" alt="CarPlay 到信界 HUD 的项目概念封面：无线盒子连接导航与 HUD" />
-
-<sub>GPT 生成的项目概念封面；实际适配型号与验证状态见下表。</sub>
+<img src="assets/project-cover.webp" width="100%" alt="手绘封面，展示无线盒子将 CarPlay 导航发送到信界 HUD" />
 
 </div>
 
----
+## 按手里的设备开始
 
-用兼容的无线 CarPlay 盒子接收结构化导航，再通过蓝牙把转向、动作距离、单行文字与车道引导显示在信界 HUD 上。仓库包含转换核心、U5/U6A 适配、管理网页、诊断和 HUD 图标补全工具。
+- **我有路先行 U5 或 U6A，想直接用。** 按项目号选固件，只刷盒子，HUD 保留原厂固件。[核对型号并下载](docs/versions.md) · [跟着步骤刷写、连接和测试](docs/quick-start.md)
+- **我的 HUD 已能导航，想补全图标。** 核对信界模块号后，选择对应的补图固件。[查看补图教程](docs/hud-upgrade.md)
+- **我用其他品牌盒子，想复刻。** 先检查盒子能取得结构化路引、使用 BLE 连接 HUD，再复用导航转换核心。[适配教程和资料包](docs/box-porting.md)
+
+## 显示效果示意
+
+![手绘显示示意。地图和 HUD 都显示左转 100 米](assets/docs/display-example.webp)
+
+图中用「左转 100 米」说明地图提示与 HUD 的对应关系。项目实测中，HUD 已通过左转 100 米的固定显示与清屏测试。
 
 ## 导航怎么到达 HUD
 
-![原理手绘图。iPhone 将导航数据交给盒子，盒子转换后通过蓝牙把左转 100 米发给 HUD](assets/docs/data-flow.png)
+![原理手绘图。iPhone 将导航数据交给盒子，盒子转换后通过蓝牙把左转 100 米发给 HUD](assets/docs/data-flow.webp)
 
 1. **iPhone 发送路引**。在 CarPlay 中开始导航后，支持的地图会发送当前动作和距离等结构化信息。
 2. **盒子选出当前提示**。它把路线、动作和车道更新合并，再映射成信界 HUD 能识别的动作编号、文字和车道数据。
 3. **HUD 按指令显示**。盒子通过蓝牙发送转换结果。图中的「左转 100 米」就是一次显示示例。
 
 更多细节见[架构说明](docs/architecture.md)。
-
-## 选一条适合你的路线
-
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3>① 简单方式</h3>
-<p><strong>只刷盒子，HUD 保留原厂固件。</strong></p>
-<p>先打通导航显示。使用兼容图标表，适合第一次尝试或希望少改硬件的车友。</p>
-<p><a href="docs/quick-start.md"><strong>查看逐步教程 →</strong></a></p>
-</td>
-<td width="50%" valign="top">
-<h3>② 进阶方式</h3>
-<p><strong>为对应型号的 HUD 补全转向图标。</strong></p>
-<p>在简单方式正常运行后，核对模块与底包，完成专用图标补丁并开启完整图标模式。</p>
-<p><a href="docs/hud-upgrade.md"><strong>查看补图与验证 →</strong></a></p>
-</td>
-</tr>
-</table>
 
 ## 先认型号，再选版本
 
@@ -83,7 +70,7 @@
 
 ## 从等待连接到导航显示
 
-<p align="center"><img src="assets/docs/waiting.png" width="740" alt="手绘等待连接场景：车机屏幕等待 iPhone 连接" /></p>
+<p align="center"><img src="assets/docs/waiting.webp" width="740" alt="手绘等待连接场景，车机屏幕等待 iPhone 连接" /></p>
 
 先让 iPhone 接上 CarPlay，再在盒子管理页搜索自己的 HUD。连接后可以用固定转向和车道测试核对屏幕。上图为等待连接示意，具体操作见[简单方式教程](docs/quick-start.md)。
 

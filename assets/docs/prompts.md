@@ -1,5 +1,9 @@
 # 教程插图生成提示词
 
+## 地图与 HUD 显示示意
+
+Use case: infographic-diagram. Wide 2:1 landscape hand-drawn automotive field guide, designed to be readable inside a mobile GitHub README. On warm ivory paper with fine forest-green ink, graphite sketch lines and a restrained mint watercolor wash, draw just two large groups. Left group: a generic smartphone with a simplified navigation map diagram, a single mint green route line making a left turn, and a prominent guidance card showing a left-turn arrow and the exact text '100 m'. Right group: a single simple translucent aftermarket windshield HUD combiner, with the same large unmistakable left-turn arrow and the exact text '100 m'. A small thin arrow between the groups points from the map to the HUD. Keep the symbols large and spaced away from edges. The navigation card and HUD match in direction and distance. No device trademarks, street names, real locations, captions, headings, lane guidance or additional copy. This is an illustrated sample, with no realistic photographic material or imitation of a particular app.
+
 ## 等待连接
 
 Use the attached waiting screen only as the subject reference. Redraw the idea as a Hand-drawn automotive field guide, graphite pencil and fine dark-green ink with restrained mint watercolor and muted amber accents on warm ivory paper. Light paper grain, imperfect hand-drawn lines, confident editorial composition, objects crisp at phone size. Flat illustration, gently shaded, no gloss, no photographic 3D, no logo, no watermark. Show a sketched dashboard screen in the center, a small phone with a dotted wireless link beside it, and a simple outlined green device selection area on the screen. One clear handwritten Chinese screen title “等待连接”. Do not reproduce brand marks, or small secondary text. Approximately 2:1 landscape. Concept illustration for GitHub documentation, distinct from the actual interface.

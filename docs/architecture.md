@@ -1,6 +1,6 @@
 # 架构与调度
 
-![导航数据流手绘图：手机经 CarPlay 发给盒子，盒子经蓝牙发给信界 HUD](../assets/docs/data-flow.png)
+![导航数据流手绘图。手机经 CarPlay 发给盒子，盒子经蓝牙发给信界 HUD](../assets/docs/data-flow.webp)
 
 手机地图 → CarPlay/iAP2 结构化消息 → 盒子接收与会话代次 → 独立导航共享通道 → 公共转换核心 → BLE 服务 → 信界 HUD。
 
